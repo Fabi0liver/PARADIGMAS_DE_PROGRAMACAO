@@ -1,14 +1,18 @@
                                  TIPOS DE PARADIGMAS DE PROGRAMAÇÃO
 
- A importância dos paradigmas de programação reside em sua capacidade de influenciar a forma como os programadores pensam e abordam a resolução de problemas. Cada paradigma oferece uma estrutura mental e um conjunto de ferramentas 
-que moldam como os conceitos são expressos e implementados em código. 
+ A importância dos paradigmas de programação reside em sua capacidade de influenciar a forma como os 
+programadores pensam e abordam a resolução de problemas. Cada paradigma oferece uma estrutura mental 
+e um conjunto de ferramentas que moldam como os conceitos são expressos e implementados em código. 
 
-A seguir, vamos explorar os principais aspectos que destacam a importância dos paradigmas de programação no desenvolvimento de software.
+A seguir, vamos explorar os principais aspectos que destacam a importância dos paradigmas de programação no 
+desenvolvimento de software.
 
 
 * Paradigma Imperativo: 
 
- O paradigma imperativo é baseado em comandos que mudam o estado do programa através de instruções sequenciais. Ele se concentra em como as tarefas são realizadas, especificando o fluxo de controle detalhado que o computador deve seguir.
+ O paradigma imperativo é baseado em comandos que mudam o estado do programa através de instruções sequenciais. 
+Ele se concentra em como as tarefas são realizadas, especificando o fluxo de controle detalhado que o computador
+deve seguir.
 
    Características:
 
@@ -30,7 +34,8 @@ Impacto no Desenvolvimento: O paradigma imperativo é intuitivo para muitos inic
 
 * Paradigma Procedural:
 
- O paradigma procedural é uma extensão do paradigma imperativo, que organiza o código em funções ou procedimentos. Ele promove a reutilização de código e uma estrutura mais modular.
+ O paradigma procedural é uma extensão do paradigma imperativo, que organiza o código em funções ou procedimentos. 
+Ele promove a reutilização de código e uma estrutura mais modular.
 
    Características:
 
@@ -123,7 +128,8 @@ que o sistema utiliza para inferir soluções.
 
 * Paradigma Declarativo:
 
- O paradigma declarativo se concentra em o que o programa deve fazer, em vez de como deve ser feito. Ele engloba paradigmas como o lógico e o funcional.
+ O paradigma declarativo se concentra em o que o programa deve fazer, em vez de como deve ser feito. Ele engloba
+paradigmas como o lógico e o funcional.
 
    Características:
 
@@ -163,7 +169,8 @@ aplicações que precisam responder a eventos externos em tempo real.
 
 * Paradigma Concorrente:
 
- O paradigma concorrente trata da execução simultânea de múltiplas tarefas ou processos, facilitando o uso eficiente de sistemas multicore e distribuídos.
+ O paradigma concorrente trata da execução simultânea de múltiplas tarefas ou processos, facilitando o uso eficiente 
+de sistemas multicore e distribuídos.
 
    Características:
 
@@ -233,16 +240,4 @@ desenvolvedores.
 
  Entender os fundamentos e as características de cada paradigma ajuda na criação de soluções mais eficazes e bem   
 estruturadas.
-
-
-
-
-
-
-
-
-
-
-
-
 
