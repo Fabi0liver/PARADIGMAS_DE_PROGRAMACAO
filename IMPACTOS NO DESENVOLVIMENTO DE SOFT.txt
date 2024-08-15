@@ -102,6 +102,7 @@ membros da equipe.
 e desempenho do sistema até a facilidade de aprendizado, manutenção e colaboração em equipe. A escolha do paradigma certo 
 pode determinar o sucesso de um projeto, tornando-o mais eficiente, adaptável e sustentável ao longo do tempo. 
 
- Por isso, é fundamental que desenvolvedores e arquitetos de software compreendam os fundamentos dos diferentes paradigmas e saibam como aplicá-los de maneira eficaz para resolver problemas específicos.
+ Por isso, é fundamental que desenvolvedores e arquitetos de software compreendam os fundamentos dos diferentes paradigmas e 
+saibam como aplicá-los de maneira eficaz para resolver problemas específicos.
 
 
