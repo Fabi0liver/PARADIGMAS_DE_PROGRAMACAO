@@ -1,8 +1,7 @@
 # Paradigmas-de-Programação
 
-  Paradigmas de programação são abordagens ou estilos fundamentais que 
-  guiam a forma como os desenvolvedores pesam e estruturam soluções de
-  software. 
+  Paradigmas de programação são abordagens ou estilos fundamentais que guiam a forma como os desenvolvedores 
+  pesam e estruturam soluções de software. 
   
   Eles representam diferentes filosofias como os problemas deve, ser 
   abordados em um contexto de programação, moldando a maneira como os 
