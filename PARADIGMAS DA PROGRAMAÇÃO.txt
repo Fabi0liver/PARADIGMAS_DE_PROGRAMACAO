@@ -3,7 +3,7 @@
  Paradigmas de programação são modelos ou estilos fundamentais que definem a forma como os problemas 
 são abordados e resolvidos em termos de código em uma linguagem de programação. Eles estabelecem um 
 conjunto de conceitos, práticas e princípios que orientam a maneira como os programadores estruturam 
-eorganizam suas soluções para problemas computacionais. 
+e organizam suas soluções para problemas computacionais. 
 
  Cada paradigma oferece uma perspectiva única sobre a interação entre dados e operações, influenciando 
 tanto o design do código quanto o fluxo de controle e a gestão de estado dentro de um programa.
@@ -25,6 +25,70 @@ preferências ou a experiência do programador.
 software, facilitando a comunicação entre desenvolvedores, a manutenção de código e a criação de soluções 
 robustas e eficientes. Eles também moldam a forma como os programadores pensam e raciocinam sobre problemas 
 computacionais, influenciando profundamente a prática da programação e a evolução das tecnologias de software.
+
+ Os dois tipos principais de paradigmas de programação são o paradigma imperativo e o paradigma declarativo, cada 
+um desses paradigmas possui diferentes abordagens e técnicas para resolver problemas e estruturar programas.
+
+ O paradigma imperativo se preocupa com a sequência de instruções e o controle explícito do estado do programa, 
+enquanto o paradigma declarativo se concentra na descrição do resultado desejado, abstraindo o processo de 
+execução. Ambos os paradigmas têm implicações importantes na forma como os programadores abordam a solução de 
+problemas e a escrita de código, influenciando diretamente o estilo e a eficiência dos programas.
+
+- O Paradigma Imperativo: É uma maneira de programar em que o foco está na descrição das etapas sequenciais que o 
+                         computador deve seguir para realizar uma tarefa. Ele se baseia na ideia de que um 
+                         programa é como uma receita ou uma lista de instruções que o computador executa uma a 
+                         uma, alterando o estado do sistema ao longo do caminho.
+
+                          Nesse paradigma, o programador tem controle explícito sobre o fluxo de execução do 
+                         programa, ou seja, ele decide em que ordem as instruções são executadas, como os dados 
+                         são manipulados, e como o estado do programa muda com o tempo. A programação imperativa é 
+                         centrada em comandos que modificam o estado do programa, como variáveis ​​que armazenam 
+                         dados e comandos que alteram esses dados.
+
+ - O Paradigma declarativo: É uma abordagem em que o programador se concentra em descrever o 
+                           resultado desejado ou as propriedades do resultado , em vez de detalhar cada passo para 
+                           alcançar esse resultado. Nesse estilo, o foco é o que o programa deve fazer, não em 
+                           como ele deve fazer.
+
+                            Ao adotar uma abordagem declarativa, o programador especifica as relações lógicas, as 
+                           condições ou os objetivos que precisam ser atendidos, deixando ao sistema a tarefa de 
+                           descobrir a melhor forma de alcançar esses objetivos. Isso significa que, ao fornecer 
+                           instruções passo a passo, o programador descreve o problema ou a solução de maneira 
+                           mais abstrata e o sistema se encarrega de executar uma lógica básica.
+
+ Aqui está um resumo sobre os dois principais paradigmas de programação:
+
+Paradigma Imperativo:
+
+  - Foca em como o programa deve ser executado.
+
+  - O programador define uma sequência de instruções passo a passo.
+
+  - Envolve o controle explícito do estado do programa e do fluxo de execução.
+
+Paradigma Declarativo:
+
+  - Foca em o que o programa deve fazer.
+
+  - O programador descreveu o resultado desejado, sem detalhar os passos específicos.
+
+  - O sistema decide como alcançar o resultado, abstraindo o controle do fluxo de execução.
+
+
+ Em resumo os paradigmas de programação são estilos ou abordagens que definem como os programas de computador são 
+estruturados e escritos. Eles influenciam diretamente a forma como os problemas são resolvidos e como as soluções 
+são expressas em código. 
+
+ Cada paradigma oferece uma visão distinta sobre o desenvolvimento de software, moldando as ferramentas e técnicas 
+que os programadores utilizam para criar sistemas eficientes e robustos. Compreender esses paradigmas é essencial 
+para escolher a abordagem mais adequada a cada problema, aproveitando ao máximo as capacidades de cada estilo de  programação. 
+
+
+
+
+
+
+
 
                                     
 
