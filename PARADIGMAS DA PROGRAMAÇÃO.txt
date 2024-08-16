@@ -81,7 +81,8 @@ são expressas em código.
 
  Cada paradigma oferece uma visão distinta sobre o desenvolvimento de software, moldando as ferramentas e técnicas 
 que os programadores utilizam para criar sistemas eficientes e robustos. Compreender esses paradigmas é essencial 
-para escolher a abordagem mais adequada a cada problema, aproveitando ao máximo as capacidades de cada estilo de  programação. 
+para escolher a abordagem mais adequada a cada problema, aproveitando ao máximo as capacidades de cada estilo de  
+programação. 
 
 
 
