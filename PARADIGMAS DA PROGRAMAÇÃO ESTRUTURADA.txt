@@ -368,7 +368,9 @@ eficiente e adaptável ao longo do tempo, facilitando a identificação e resolu
 implementação de melhorias e atualizações.
 
 
-- Reutilização de Código: Refere-se à prática de utilizar segmentos de código, como funções, procedimentos, módulos ou bibliotecas, em diferentes partes de um programa ou em diferentes projetos, sem a necessidade de reescrever o código. O objetivo é economizar tempo, reduzir erros e promover a consistência.
+- Reutilização de Código: Refere-se à prática de utilizar segmentos de código, como funções, procedimentos, módulos 
+ou bibliotecas, em diferentes partes de um programa ou em diferentes projetos, sem a necessidade de reescrever o 
+código. O objetivo é economizar tempo, reduzir erros e promover a consistência.
 
    Característica:
 
@@ -402,7 +404,9 @@ implementação de melhorias e atualizações.
                       Benefício: Facilita a manutenção e a reutilização de partes do código, promovendo uma  
                       estrutura mais organizada e modular.
 
- Em resumo, a reutilização de código é uma prática fundamental que promove a eficiência, a consistência e a manutenção simplificada no desenvolvimento de software. Ao criar e utilizar componentes reutilizáveis, desenvolvedores podem economizar tempo, reduzir erros e criar sistemas mais robustos e escaláveis.
+ Em resumo, a reutilização de código é uma prática fundamental que promove a eficiência, a consistência e a manutenção
+simplificada no desenvolvimento de software. Ao criar e utilizar componentes reutilizáveis, desenvolvedores podem 
+economizar tempo, reduzir erros e criar sistemas mais robustos e escaláveis.
 
 
 - Enfoque no Desenvolvimento Iterativo: O desenvolvimento iterativo é uma abordagem onde o software é desenvolvido 
@@ -449,7 +453,9 @@ foca em criar e aprimorar o software através de várias rodadas de revisão e r
                                Benefício: Reduz a probabilidade de problemas significativos no final do ciclo de 
                                desenvolvimento, pois os problemas são abordados e resolvidos ao longo do processo.
 
- Em resumo, o enfoque no desenvolvimento iterativo proporciona uma abordagem dinâmica e adaptável para o  desenvolvimento de software, permitindo ajustes contínuos e entregas incrementais que respondem melhor às  necessidades dos usuários e às mudanças no ambiente de desenvolvimento.
+ Em resumo, o enfoque no desenvolvimento iterativo proporciona uma abordagem dinâmica e adaptável para o  desenvolvimento
+de software, permitindo ajustes contínuos e entregas incrementais que respondem melhor às  necessidades dos usuários e às
+mudanças no ambiente de desenvolvimento.
 
 
 Abstração de Controle: Refere-se ao conceito de ocultar os detalhes específicos de como o controle do programa é 
