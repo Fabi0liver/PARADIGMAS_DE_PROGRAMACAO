@@ -526,7 +526,10 @@ programa. Isso evita a duplicação de código e promove a eficiência no desenv
 ser chamado sempre que necessário. A reutilização também melhora a consistência, pois as alterações feitas em uma 
 função ou módulo são automaticamente refletidas em todos os lugares onde são usados.
 
-- Organização e Modularidade: O paradigma estruturado promove a divisão do código em módulos, cada um com uma função específica. Isso resulta em uma organização mais clara e facilita a gestão do desenvolvimento do projeto. A modularidade permite que diferentes partes do código sejam desenvolvidas e testadas independentemente, o que simplifica a integração e o gerenciamento de grandes sistemas.
+- Organização e Modularidade: O paradigma estruturado promove a divisão do código em módulos, cada um com uma função
+específica. Isso resulta em uma organização mais clara e facilita a gestão do desenvolvimento do projeto. 
+A modularidade permite que diferentes partes do código sejam desenvolvidas e testadas independentemente, o que 
+simplifica a integração e o gerenciamento de grandes sistemas.
 
 - Facilidade de Depuração: A modularidade e a clareza do código estruturado ajudam na identificação e correção de 
 erros. Como o código é dividido em funções e módulos, é mais fácil localizar e isolar problemas. Além disso, as 
@@ -551,7 +554,10 @@ dados complexos e suas interações. A abordagem baseada em funções e controle
 natural de encapsular e manipular dados relacionados. Isso pode levar a um código mais difícil de entender e 
 gerenciar quando os dados têm muitas relações e precisam ser manipulados de maneira complexa.
 
-- Manutenção de Código de Longo Prazo: Com o tempo, à medida que o software evolui, o código estruturado pode precisar de reestruturações significativas. A adição de novas funcionalidades e a correção de problemas podem exigir mudanças extensivas em várias partes do código, especialmente se não for bem documentado. A manutenção pode se tornar trabalhosa e propensa a erros, particularmente se o código não for modularizado adequadamente.
+- Manutenção de Código de Longo Prazo: Com o tempo, à medida que o software evolui, o código estruturado pode
+precisar de reestruturações significativas. A adição de novas funcionalidades e a correção de problemas podem 
+exigir mudanças extensivas em várias partes do código, especialmente se não for bem documentado. A manutenção 
+pode se tornar trabalhosa e propensa a erros, particularmente se o código não for modularizado adequadamente.
 
 - Falta de Abstração de Dados: O paradigma estruturado foca mais no controle de fluxo e na organização do código 
 do que na abstração de dados. Isso pode levar a uma gestão menos eficiente de dados complexos, já que a abstração 
