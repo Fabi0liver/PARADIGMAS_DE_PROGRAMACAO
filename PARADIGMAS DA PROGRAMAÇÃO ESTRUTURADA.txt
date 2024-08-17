@@ -1,0 +1,30 @@
+                                  PARADIGMA DE PROGRAMAÇÃO ESTRUTURADA
+
+  
+ O paradigma de programação estruturada é uma metodologia de desenvolvimento de software que promove a criação de 
+programas mais legíveis, organizados e fáceis de manter, através do uso de estruturas de controle bem definidas. 
+
+ Esse paradigma se baseia na ideia de que o código deve ser escrito de maneira clara e linear, evitando o uso 
+excessivo de desvios incontrolados, como o comando "goto", que era comum nos primeiros dias da programação.
+
+ O paradigma estruturado surgiu na década de 1960, durante um período de rápido crescimento e evolução na área de 
+informática. Naquela época, a programação era frequentemente realizada em linguagens de baixo nível, e o uso 
+indiscriminado de saltos e desvios (como o comando "goto") resultava em código desorganizado, difícil de entender e 
+manter, um fenômeno que ficou conhecido como "código espaguete". Esse tipo de código era extremamente problemático, 
+pois qualquer modificação ou correção tornava-se um desafio significativo, aumentando o risco de introduzir novos 
+erros no sistema.
+  
+ Um marco importante para o surgimento da programação estruturada foi a publicação do artigo "Go To Statement 
+Considered Harmful" por Edsger W. Dijkstra em 1968. Nesse artigo, Dijkstra argumentava que o uso excessivo do 
+"goto" criava programas desordenados e que uma abordagem mais disciplinada, usando estruturas de controle bem 
+definidas, resultaria em código mais robusto e compreensível.
+
+ A partir desse ponto, a ideia de estruturar o código de forma a seguir um fluxo lógico e previsível ganhou 
+popularidade. Foram introduzidos conceitos como sequência (execução linear de instruções), seleção (decisões 
+condicionais) e repetição (loops), que formam a base do paradigma estruturado. Esse novo enfoque não apenas 
+melhorou a clareza dos programas, mas também facilitou a manutenção, a depuração e a evolução do software.
+
+ Com o tempo, a programação estruturada tornou-se amplamente aceita e incorporada em diversas linguagens de 
+programação, como C, Pascal e Ada, que oferecem suporte direto a esses princípios. Essas linguagens fornecem 
+estruturas de controle que evitam a necessidade de comandos "goto", permitindo que os desenvolvedores escrevam 
+código de forma mais lógica e modular.
