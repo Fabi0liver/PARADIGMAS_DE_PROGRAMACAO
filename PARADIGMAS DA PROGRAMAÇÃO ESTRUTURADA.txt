@@ -2,12 +2,16 @@
 
   
  O paradigma de programação estruturada é uma metodologia de desenvolvimento de software que promove a criação de 
-programas mais legíveis, organizados e fáceis de manter, através do uso de estruturas de controle bem definidas. Esse paradigma se baseia na ideia de que o código deve ser escrito de maneira clara e linear, evitando o uso 
+programas mais legíveis, organizados e fáceis de manter, através do uso de estruturas de controle bem definidas. 
+Esse paradigma se baseia na ideia de que o código deve ser escrito de maneira clara e linear, evitando o uso 
 excessivo de desvios incontrolados, como o comando "goto", que era comum nos primeiros dias da programação.
 
  O paradigma estruturado surgiu na década de 1960, durante um período de rápido crescimento e evolução na área de 
 informática. Naquela época, a programação era frequentemente realizada em linguagens de baixo nível, e o uso 
-indiscriminado de saltos e desvios (como o comando "goto") resultava em código desorganizado, difícil de entender e manter, um fenômeno que ficou conhecido como "código espaguete". Esse tipo de código era extremamente problemático, pois qualquer modificação ou correção tornava-se um desafio significativo, aumentando o risco de introduzir novos erros no sistema.
+indiscriminado de saltos e desvios (como o comando "goto") resultava em código desorganizado, difícil de entender
+e manter, um fenômeno que ficou conhecido como "código espaguete". Esse tipo de código era extremamente 
+problemático, pois qualquer modificação ou correção tornava-se um desafio significativo, aumentando o risco de 
+introduzir novos erros no sistema.
   
  Um marco importante para o surgimento da programação estruturada foi a publicação do artigo "Go To Statement 
 Considered Harmful" por Edsger W. Dijkstra em 1968. Nesse artigo, Dijkstra argumentava que o uso excessivo do 
@@ -34,7 +38,9 @@ e os organiza em um conjunto de práticas que tornam o código mais claro, mais 
 erros. Dessa forma, a programação estruturada é uma aplicação disciplinada da programação imperativa, que visa 
 melhorar a qualidade do software desenvolvido.
 
- Enquanto o paradigma imperativo define o conceito geral de como escrever programas que instruem o computador, o paradigma estruturado adiciona um conjunto de restrições e boas práticas que ajudam a organizar o código de maneira mais clara e gerenciável.
+ Enquanto o paradigma imperativo define o conceito geral de como escrever programas que instruem o computador, 
+o paradigma estruturado adiciona um conjunto de restrições e boas práticas que ajudam a organizar o código de 
+maneira mais clara e gerenciável.
 
   Detalhando Ligação entre os dois paradigmas:
 
@@ -65,9 +71,11 @@ melhorar a qualidade do software desenvolvido.
                "Principais Características do Paradigma de Programação Estruturada"
 
 
- O paradigma de programação estruturada possui várias características que o diferencia e o torna essencial para a criação de programas claros e bem organizados.
+ O paradigma de programação estruturada possui várias características que o diferencia e o torna essencial para a
+criação de programas claros e bem organizados.
 
  Abaixo estão as principais características desse paradigma:
+
 
 - Sequência Lógica de Instruções: Refere-se à execução linear e ordenada das instruções de um programa. Em um 
 programa estruturado, as instruções são processadas uma após a outra na ordem em que aparecem no código, a menos 
@@ -88,7 +96,8 @@ que sejam alteradas por estruturas de controle (como loops ou condicionais).
         Organização: Facilita a organização do código, pois cada instrução ou bloco de código é executado em uma 
                     ordem definida, o que ajuda a manter a lógica do programa clara e estruturada.
  
- Em resumo, a sequência lógica de instruções é a base da execução ordenada e previsível de um programa, contribuindo para a clareza, organização e manutenção eficiente do código.
+ Em resumo, a sequência lógica de instruções é a base da execução ordenada e previsível de um programa, contribuindo 
+para a clareza, organização e manutenção eficiente do código.
 
 
 - Uso de Estruturas de Controle Bem Definidas: São mecanismos que permitem alterar o fluxo de execução de um 
@@ -123,7 +132,6 @@ repetitiva de maneira estruturada e organizada.
 
                             Exemplo: Aninhamento de loops e condicionais para implementar lógicas complexas.
 
-	
    Características:
 
 	Clareza e Ordem: Estruturas de controle proporcionam uma maneira clara e ordenada de gerenciar o fluxo de 
@@ -144,7 +152,10 @@ lógicos, permitindo uma gestão clara e eficiente do fluxo de execução e a im
 repetitiva.
 
 
-- Modularidade: É uma característica crucial do paradigma de programação estruturada, que visa tornar o desenvolvimento e a manutenção do software mais eficientes.Modularidade é o princípio de dividir um programa em partes menores e independentes, chamadas de módulos, funções, procedimentos ou subrotinas. Cada módulo é responsável por uma parte específica da funcionalidade do programa.
+- Modularidade: É uma característica crucial do paradigma de programação estruturada, que visa tornar o desenvolvimento
+e a manutenção do software mais eficientes.Modularidade é o princípio de dividir um programa em partes menores e 
+independentes, chamadas de módulos, funções, procedimentos ou subrotinas. Cada módulo é responsável por uma parte 
+específica da funcionalidade do programa.
 
    Características:
 
@@ -190,4 +201,5 @@ repetitiva.
 				Benefício: Torna o código mais fácil de ler e entender, facilitando a colaboração 
                                 entre desenvolvedores e a manutenção do sistema.
 
- Em resumo, a modularidade é uma característica essencial da programação estruturada que promove a organização, reutilização e manutenção eficiente do código, contribuindo para a criação de sistemas robustos e flexíveis.
+ Em resumo, a modularidade é uma característica essencial da programação estruturada que promove a organização, reutilização
+e manutenção eficiente do código, contribuindo para a criação de sistemas robustos e flexíveis.
