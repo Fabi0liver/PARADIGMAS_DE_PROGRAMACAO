@@ -32,6 +32,27 @@ Impacto no Desenvolvimento: O paradigma imperativo é intuitivo para muitos inic
                            mais difícil de depurar e manter em projetos grandes.
 
 
+* Paradigma Estruturado:
+
+ O paradigma estruturado é um subconjunto do paradigma imperativo que enfatiza o uso de estruturas de controle bem 
+definidas e evita o uso de goto, promovendo um código mais legível e fácil de manter.
+
+   Características:
+
+      - Estruturas de Controle Claras: Uso de loops (for, while) e condicionais (if, else) para controlar o fluxo 
+                                      de execução.
+
+      - Evita Goto: Proíbe o uso de goto, que pode tornar o fluxo de execução confuso e difícil de seguir.
+
+      - Ciclo de Vida Controlado: As variáveis têm ciclos de vida claramente definidos, o que facilita a depuração  
+                                 e a manutenção.
+ 
+ Impacto no Desenvolvimento: O paradigma estruturado promove boas práticas de codificação, resultando em software 
+                            mais legível e fácil de manter. Ele é particularmente útil em sistemas onde a clareza 
+                            do fluxo de controle é crítica. Contudo, em projetos muito complexos, pode ser 
+                            necessário combinar com outros paradigmas para lidar com a complexidade.
+
+
 * Paradigma Procedural:
 
  O paradigma procedural é uma extensão do paradigma imperativo, que organiza o código em funções ou procedimentos. 
@@ -189,29 +210,7 @@ de sistemas multicore e distribuídos.
                             corrida e deadlocks.
 
 
-* Paradigma Estruturado:
-
- O paradigma estruturado é um subconjunto do paradigma imperativo que enfatiza o uso de estruturas de controle bem 
-definidas e evita o uso de goto, promovendo um código mais legível e fácil de manter.
-
-   Características:
-
-      - Estruturas de Controle Claras: Uso de loops (for, while) e condicionais (if, else) para controlar o fluxo 
-                                      de execução.
-
-      - Evita Goto: Proíbe o uso de goto, que pode tornar o fluxo de execução confuso e difícil de seguir.
-
-      - Ciclo de Vida Controlado: As variáveis têm ciclos de vida claramente definidos, o que facilita a depuração  
-                                 e a manutenção.
- 
- Impacto no Desenvolvimento: O paradigma estruturado promove boas práticas de codificação, resultando em software 
-                            mais legível e fácil de manter. Ele é particularmente útil em sistemas onde a clareza 
-                            do fluxo de controle é crítica. Contudo, em projetos muito complexos, pode ser 
-                            necessário combinar com outros paradigmas para lidar com a complexidade.
-
-
-
-* 10. Paradigma Orientado a Eventos:
+* Paradigma Orientado a Eventos:
 
  O paradigma orientado a eventos é centrado na ideia de que a execução do programa é impulsionada por eventos, 
 como entradas do usuário ou mensagens de sistema.
