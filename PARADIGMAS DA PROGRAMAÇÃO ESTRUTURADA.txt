@@ -574,7 +574,8 @@ capacidade de objetos diferentes responderem à mesma interface ou mensagem de m
 a flexibilidade e a extensibilidade do código, especialmente em sistemas que se beneficiariam de uma abordagem 
 orientada a objetos para manejar variações de comportamento.
 
-Esses aspectos ajudam a entender melhor onde a programação estruturada se destaca e onde pode apresentar desafios, permitindo que desenvolvedores escolham o paradigma mais adequado para suas necessidades e projetos específicos.
+Esses aspectos ajudam a entender melhor onde a programação estruturada se destaca e onde pode apresentar desafios, 
+permitindo que desenvolvedores escolham o paradigma mais adequado para suas necessidades e projetos específicos.
 
 
 
