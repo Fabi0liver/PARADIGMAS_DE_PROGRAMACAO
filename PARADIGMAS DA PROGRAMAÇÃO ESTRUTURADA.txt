@@ -28,6 +28,22 @@ programação, como C, Pascal e Ada, que oferecem suporte direto a esses princí
 estruturas de controle que evitam a necessidade de comandos "goto", permitindo que os desenvolvedores escrevam 
 código de forma mais lógica e modular.
 
+ As linguagens de programação que seguem o paradigma estruturado são projetadas para suportar a criação de 
+programas organizados em blocos lógicos, com um fluxo de controle bem definido. Algumas das principais linguagens de programação que se enquadram nesse paradigma incluem:
+
+* C: Uma das linguagens mais populares que adota o paradigma estruturado. Ela permite a criação de funções,    
+    utiliza estruturas de controle como if, for, while e evita o uso excessivo de goto, incentivando uma abordagem 
+    mais organizada.
+
+* Pascal: Criada especificamente para ensinar boas práticas de programação estruturada, Pascal é conhecida pela 
+ sua clareza e ênfase em organização de código.
+
+* Ada: Uma linguagem que se baseia em princípios de programação estruturada, usada em sistemas críticos que 
+ requerem alta confiabilidade e manutenção.
+
+* Modula-2: Evolução do Pascal, projetada para ser uma linguagem estruturada e modular, facilitando a criação de 
+ sistemas complexos.
+
 
 
                                 "Relação com o Paradigma Imperativo"
