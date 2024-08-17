@@ -29,7 +29,8 @@ estruturas de controle que evitam a necessidade de comandos "goto", permitindo q
 código de forma mais lógica e modular.
 
  As linguagens de programação que seguem o paradigma estruturado são projetadas para suportar a criação de 
-programas organizados em blocos lógicos, com um fluxo de controle bem definido. Algumas das principais linguagens de programação que se enquadram nesse paradigma incluem:
+programas organizados em blocos lógicos, com um fluxo de controle bem definido. Algumas das principais linguagens
+de programação que se enquadram nesse paradigma incluem:
 
 * C: Uma das linguagens mais populares que adota o paradigma estruturado. Ela permite a criação de funções,    
     utiliza estruturas de controle como if, for, while e evita o uso excessivo de goto, incentivando uma abordagem 
