@@ -34,14 +34,20 @@ lógica pode ser claramente dividida em etapas sequenciais e onde a reutilizaç�
                 "As diferenças entre os Paradigmas Imperativo, Estruturado e Procedural "
 
 
- As diferenças entre os paradigmas Imperativo, Estruturado e Procedural estão principalmente na forma como eles organizam e estruturam o código, apesar de todos compartilharem a ideia central de controlar o fluxo de execução de um programa.
+ As diferenças entre os paradigmas Imperativo, Estruturado e Procedural estão principalmente na forma como eles 
+organizam e estruturam o código, apesar de todos compartilharem a ideia central de controlar o fluxo de execução 
+de um programa.
 
  O Paradigma Imperativo é o mais fundamental dos três. Ele descreve a programação como uma sequência de instruções 
 que modificam o estado do programa ao longo do tempo. A programação imperativa concentra-se em comandos diretos ao 
 computador para realizar tarefas, alterando o estado do programa através de atribuições, loops, e condicionais. 
 Nesse sentido, o paradigma imperativo estabelece a base para os outros dois.
 
- O Paradigma Estruturado é uma evolução do imperativo, introduzindo métodos para organizar melhor o código. Enquanto o paradigma imperativo simplesmente descreve o que deve ser feito, o estruturado foca em "como" essas instruções são organizadas. Ele impõe o uso de estruturas de controle claras, como loops (for, while) e condicionais (if, else), evitando práticas confusas como o uso do goto. O objetivo principal do paradigma estruturado é tornar o código mais legível, previsível e fácil de manter, aplicando a ideia de decomposição em sub-rotinas.
+ O Paradigma Estruturado é uma evolução do imperativo, introduzindo métodos para organizar melhor o código. Enquanto 
+o paradigma imperativo simplesmente descreve o que deve ser feito, o estruturado foca em "como" essas instruções são 
+organizadas. Ele impõe o uso de estruturas de controle claras, como loops (for, while) e condicionais (if, else), 
+evitando práticas confusas como o uso do goto. O objetivo principal do paradigma estruturado é tornar o código mais
+legível, previsível e fácil de manter, aplicando a ideia de decomposição em sub-rotinas.
 
  O Paradigma Procedural, por sua vez, pode ser visto como um refinamento do paradigma estruturado. Ele não apenas 
 adota as boas práticas de controle de fluxo do paradigma estruturado, mas também enfatiza a modularização do 
@@ -98,7 +104,10 @@ maneira eficiente de organizar o código. O conceito central do paradigma proced
 visto como uma coleção de procedimentos interligados, cada um realizando uma função específica dentro do sistema 
 maior.
 
- À medida que o conceito de procedimentos ganhou aceitação, ele foi formalizado em diversos ambientes de programação, estabelecendo o paradigma procedural como uma prática comum na criação de software. Isso não só facilitou o desenvolvimento de programas mais complexos, mas também introduziu práticas de engenharia de software que são fundamentais até hoje, como a modularização, a reutilização de código, e a separação de preocupações.
+ À medida que o conceito de procedimentos ganhou aceitação, ele foi formalizado em diversos ambientes de programação
+, estabelecendo o paradigma procedural como uma prática comum na criação de software. Isso não só facilitou o 
+desenvolvimento de programas mais complexos, mas também introduziu práticas de engenharia de software que são 
+fundamentais até hoje, como a modularização, a reutilização de código, e a separação de preocupações.
 
 
 
@@ -185,7 +194,8 @@ escolha comum em situações onde a clareza e a simplicidade são cruciais.
                    "Linguagens de Programação que Seguem o Paradigma Procedural"
 
 
-  Várias linguagens de programação utilizam o paradigma procedural, algumas das quais foram fundamentais para o desenvolvimento desse estilo de programação. 
+  Várias linguagens de programação utilizam o paradigma procedural, algumas das quais foram fundamentais para o
+desenvolvimento desse estilo de programação. 
 
  Aqui estão algumas das principais:
 
@@ -293,7 +303,8 @@ separadamente.
 - Desempenho: O código procedural, quando bem otimizado, pode ser altamente eficiente em termos de tempo de 
 execução e uso de recursos, especialmente em comparação com paradigmas mais abstratos, como o orientado a objetos.
 
-- Proximidade ao Hardware: Em linguagens como C, que seguem o paradigma procedural, há uma proximidade maior ao hardware, permitindo uma manipulação direta da memória e controle sobre os recursos do sistema.
+- Proximidade ao Hardware: Em linguagens como C, que seguem o paradigma procedural, há uma proximidade maior ao 
+hardware, permitindo uma manipulação direta da memória e controle sobre os recursos do sistema.
 
 
 
