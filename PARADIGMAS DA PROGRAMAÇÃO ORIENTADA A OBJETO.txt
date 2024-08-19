@@ -210,6 +210,22 @@ interagir, promovendo a flexibilidade e a interoperabilidade no software.
              deve fornecer suas próprias implementações desses métodos.
 
 
+
+* Associação: Na Programação Orientada a Objetos (POO) é um conceito que descreve o relacionamento entre duas 
+classes. Ele define como os objetos de uma classe se relacionam com os objetos de outra classe, permitindo que 
+eles interajam e colaborem para realizar tarefas.
+
+   - Relação entre Objetos: A associação indica que objetos de uma classe podem estar conectados ou relacionados a 
+                           objetos de outra classe. Por exemplo, em um sistema de gestão escolar, uma "Aluno" pode 
+                           estar associado a uma "Turma", indicando que o aluno está matriculado em uma turma 
+                           específica.
+
+   - Bidirecional ou Unidirecional: A associação pode ser unidirecional (um objeto sabe da existência do outro) ou 
+                                   bidirecional (ambos os objetos sabem da existência um do outro). No exemplo do 
+                                   aluno e da turma, a associação seria bidirecional se tanto o aluno quanto a   
+                                   turma "souberem" dessa relação.
+
+
 * Composição: Composição é o princípio de construir objetos complexos a partir de outros objetos mais simples. Em 
 vez de usar herança para adicionar funcionalidades, a composição envolve a inclusão de instâncias de outras 
 classes dentro de uma classe para reutilizar código e modularizar a funcionalidade.
