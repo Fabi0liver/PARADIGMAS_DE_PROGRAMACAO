@@ -1,0 +1,45 @@
+                           PARADIGMA DE PROGRAMAÇÃO ORIENTADA A OBJETO
+
+ O paradigma de programação orientada a objeto é uma abordagem de desenvolvimento de software que organiza o código 
+ao redor do conceito de "objetos". Objetos são as unidades básicas de programação nesse paradigma, e eles encapsulam 
+tanto dados quanto comportamentos que estão diretamente relacionados. Esses dados e comportamentos são conhecidos, 
+respectivamente, como atributos (ou propriedades) e métodos (ou funções).
+
+ Cada objeto em um programa orientado a objeto é uma instância de uma "classe". A classe pode ser vista como um 
+plano ou um molde que define um conjunto específico de atributos e métodos. Por exemplo, se estivermos desenvolvendo 
+um software para gerenciar uma biblioteca, podemos ter uma classe chamada "Livro". Essa classe "Livro" definiria os 
+atributos, como título, autor e número de páginas, e métodos, como emprestar e devolver. Um objeto seria, então, um 
+livro específico, como "Dom Quixote", com seus próprios valores para título, autor, e número de páginas, mas que 
+compartilha o comportamento definido pela classe.
+
+ Neste paradigma, o software é estruturado em torno desses objetos, que interagem entre si e com o ambiente ao seu  
+redor. Essa interação é crucial para o funcionamento do sistema, pois os objetos trocam informações e invocam 
+métodos uns dos outros para realizar tarefas. Por exemplo, em um sistema de gerenciamento de pedidos, um objeto 
+"Pedido" pode interagir com um objeto "Cliente" para acessar informações sobre o cliente que fez o pedido.
+
+ Uma das características mais importantes da POO é a sua modularidade. Como o código é organizado em torno de 
+objetos, cada objeto atua como uma unidade independente, responsável por uma parte específica do comportamento e 
+dos dados do sistema. Essa modularidade significa que cada parte do software (ou cada objeto) pode ser 
+desenvolvida, testada e mantida de forma relativamente isolada, o que simplifica a criação de sistemas complexos.
+
+ As classes são fundamentais para a POO, pois elas definem o que os objetos sabem e o que podem fazer. Elas 
+especificam os atributos (os dados que os objetos mantêm) e os métodos (as operações que os objetos podem 
+realizar). Dessa forma, as classes permitem que desenvolvedores definam de forma precisa como os objetos em seu 
+sistema se comportam e interagem.
+
+ Uma das grandes vantagens da programação orientada a objeto é que ela reflete de forma natural a maneira como 
+percebemos e interagimos com o mundo real. No dia a dia, lidamos com objetos (como carros, livros, pessoas) que 
+têm características e comportamentos, e a POO permite modelar essa realidade de maneira mais intuitiva no 
+software. Isso torna o processo de desenvolvimento mais direto, pois os desenvolvedores podem criar representações 
+digitais de entidades do mundo real.
+
+ Além disso, a POO facilita a manutenção e a evolução do software. Como os objetos são independentes e encapsulam 
+seus próprios dados e comportamentos, mudanças em um objeto podem ser feitas sem impactar diretamente outros 
+objetos no sistema. Isso é especialmente importante em projetos de longo prazo, onde o software precisa ser 
+adaptado ou expandido com o tempo. Também, objetos e classes podem ser reutilizados em diferentes partes de um 
+programa ou mesmo em projetos completamente diferentes, promovendo a reutilização de código e economizando tempo e 
+esforço no desenvolvimento.
+
+ Em resumo, o paradigma orientado a objeto é uma abordagem de programação que se concentra na criação e 
+manipulação de objetos que representam entidades e suas interações. Ele promove uma estrutura de código mais 
+modular, reutilizável e fácil de entender, facilitando a criação e manutenção de sistemas complexos.
