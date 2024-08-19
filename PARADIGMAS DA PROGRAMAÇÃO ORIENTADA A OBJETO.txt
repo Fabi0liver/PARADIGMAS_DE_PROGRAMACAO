@@ -1,16 +1,16 @@
                            PARADIGMA DE PROGRAMAÇÃO ORIENTADA A OBJETO
 
- O paradigma de programação orientada a objeto é uma abordagem de desenvolvimento de software que organiza o código 
-ao redor do conceito de "objetos". Objetos são as unidades básicas de programação nesse paradigma, e eles encapsulam 
-tanto dados quanto comportamentos que estão diretamente relacionados. Esses dados e comportamentos são conhecidos, 
-respectivamente, como atributos (ou propriedades) e métodos (ou funções).
+ O paradigma de programação orientada a objeto é uma abordagem de desenvolvimento de software que organiza o 
+código ao redor do conceito de "objetos". Objetos são as unidades básicas de programação nesse paradigma, e eles 
+encapsulam tanto dados quanto comportamentos que estão diretamente relacionados. Esses dados e comportamentos são 
+conhecidos, respectivamente, como atributos (ou propriedades) e métodos (ou funções).
 
  Cada objeto em um programa orientado a objeto é uma instância de uma "classe". A classe pode ser vista como um 
-plano ou um molde que define um conjunto específico de atributos e métodos. Por exemplo, se estivermos desenvolvendo 
-um software para gerenciar uma biblioteca, podemos ter uma classe chamada "Livro". Essa classe "Livro" definiria os 
-atributos, como título, autor e número de páginas, e métodos, como emprestar e devolver. Um objeto seria, então, um 
-livro específico, como "Dom Quixote", com seus próprios valores para título, autor, e número de páginas, mas que 
-compartilha o comportamento definido pela classe.
+plano ou um molde que define um conjunto específico de atributos e métodos. Por exemplo, se estivermos 
+desenvolvendo um software para gerenciar uma biblioteca, podemos ter uma classe chamada "Livro". Essa classe 
+"Livro" definiria os atributos, como título, autor e número de páginas, e métodos, como emprestar e devolver. Um 
+objeto seria, então, um livro específico, como "Dom Quixote", com seus próprios valores para título, autor, e 
+número de páginas, mas que compartilha o comportamento definido pela classe.
 
  Neste paradigma, o software é estruturado em torno desses objetos, que interagem entre si e com o ambiente ao seu  
 redor. Essa interação é crucial para o funcionamento do sistema, pois os objetos trocam informações e invocam 
@@ -43,3 +43,48 @@ esforço no desenvolvimento.
  Em resumo, o paradigma orientado a objeto é uma abordagem de programação que se concentra na criação e 
 manipulação de objetos que representam entidades e suas interações. Ele promove uma estrutura de código mais 
 modular, reutilizável e fácil de entender, facilitando a criação e manutenção de sistemas complexos.
+
+
+
+
+                      "Surgimento da Programação Orientada a Objetos"
+
+
+ O paradigma de programação orientada a objeto (POO) surgiu como uma resposta à crescente complexidade dos 
+softwares durante as décadas de 1960 e 1970. À medida que os programas se tornavam maiores e mais complexos, os 
+desenvolvedores começaram a enfrentar dificuldades em gerenciar o código e garantir sua manutenção. A POO foi 
+criada para ajudar a resolver esses problemas, fornecendo uma maneira mais natural e intuitiva de estruturar o 
+código.
+
+ O conceito de POO foi influenciado por diversas ideias anteriores, incluindo a simulação de processos do mundo  
+real. Na década de 1960, a linguagem de programação Simula, desenvolvida por Ole-Johan Dahl e Kristen Nygaard na 
+Noruega, foi a primeira a introduzir conceitos que viriam a ser centrais para a POO. Simula foi criada 
+originalmente para simulações de sistemas complexos, como redes de telecomunicações e sistemas de transporte, e 
+introduziu a ideia de "classes" e "objetos" para modelar essas entidades.
+
+ Simula 67, uma versão aprimorada da linguagem original Simula, é amplamente reconhecida como a primeira linguagem 
+orientada a objetos. Ela introduziu o conceito de encapsulamento, onde dados e operações são combinados em uma 
+única entidade (o objeto). A linguagem também introduziu herança, permitindo que uma classe derivasse de outra, e 
+polimorfismo, permitindo que diferentes objetos respondessem de forma específica à mesma operação.
+
+ Durante os anos 1970 e 1980, a POO começou a ganhar popularidade com a criação de novas linguagens que 
+incorporavam esses conceitos. Entre essas linguagens, uma das mais influentes foi o Smalltalk, desenvolvida por 
+Alan Kay e sua equipe no Xerox PARC. Smalltalk foi a primeira linguagem a ser completamente orientada a objetos e 
+popularizou muitos dos conceitos que hoje são fundamentais para a POO, como a ideia de que "tudo é um objeto".
+
+ Alan Kay, um dos criadores do Smalltalk, é muitas vezes creditado com a popularização do termo "orientação a 
+objetos". Ele via o conceito de objetos como "pequenos computadores" que poderiam interagir uns com os outros, uma 
+ideia inspirada em como as células biológicas interagem dentro de um organismo.
+
+ Nos anos 1980 e 1990, a POO começou a ser amplamente adotada na indústria de software. Linguagens como C++ 
+(desenvolvida por Bjarne Stroustrup) combinavam os conceitos de POO com a eficiência da programação em C, o que 
+ajudou a consolidar a POO como uma abordagem mainstream. Java, lançada em 1995 pela Sun Microsystems, também teve 
+um papel crucial na popularização da POO, especialmente devido à sua portabilidade e ao uso extensivo na web.
+
+ A POO trouxe uma mudança de paradigma significativa na forma como os desenvolvedores abordam a criação de 
+software. Em vez de pensar em termos de funções e procedimentos, como nas abordagens anteriores, a POO encoraja os 
+desenvolvedores a pensar em termos de objetos que interagem entre si, refletindo mais naturalmente a maneira como 
+percebemos o mundo. Isso tornou o desenvolvimento de sistemas complexos mais gerenciável, modular e intuitivo.
+
+
+
