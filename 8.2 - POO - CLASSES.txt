@@ -19,3 +19,45 @@ complexos no software.
  De forma geral, a classe ajuda a organizar o código, promovendo a reutilização e a clareza, facilitando o 
 desenvolvimento de sistemas complexos para permitir que você modele diferentes tipos de entidades de forma 
 estruturada e consistente.
+
+
+
+                                   "Importância das Classes na POO"
+
+
+- A classe atua como um modelo a partir de quais múltiplos objetos podem ser criados. Por exemplo, se você tem uma 
+classe chamada "Carro", ela define características comuns a todos os carros, como cor, modelo, fabricante, e 
+comportamentos comuns, como acelerar e frear. Cada carro que você cria é uma instância dessa classe, seguindo o 
+mesmo modelo definido.
+
+- A classe organiza e estrutura o código em blocos bem definidos, encapsulando dados (chamados de atributos) e 
+comportamentos (chamados de métodos). Isso facilita o gerenciamento do código, pois as responsabilidades de cada 
+classe são claras e bem delimitadas. Por exemplo, a classe "Carro" só se preocupa com atributos e métodos 
+relacionados aos carros, sem interferir em outras partes do sistema.
+
+- A classe permite o encapsulamento, que é o conceito de esconder os detalhes internos de um objeto e expor apenas 
+o que é necessário para a interação com o mundo externo. Isso significa que os atributos de uma classe podem ser 
+protegidos de acesso direto, e os métodos fornecem uma interface controlada para interagir com esses atributos. 
+Por exemplo, você pode proteger as informações sobre o combustível de um carro dentro da classe "Carro" e permitir 
+que outros objetos apenas verifiquem o nível de combustível através de um método específico, sem alterar 
+diretamente o valor.
+
+- Quando você cria um objeto a partir de uma classe, diz-se que você está instanciando essa classe. Cada instância 
+(ou objeto) é uma entidade individual que segue o modelo definido pela classe, mas possui seus próprios valores 
+para os atributos. Uma classe permite a reutilização, pois uma vez que você defina uma classe, pode criar quantas 
+instâncias quiser, sem precisar reescrever o código. Por exemplo, você pode criar vários objetos "Carro", cada um 
+com uma cor diferente, mas todos usando o mesmo código definido na classe "Carro".
+
+- A Classe é fundamental para conceitos avançados como herança e polimorfismo. A herança permite que uma nova 
+classe seja baseada em uma classe existente, herdando seus atributos e métodos, enquanto adiciona ou modifica 
+funcionalidades. Isso facilita a criação de gerenciadores de classes e promove a reutilização de código. O 
+polimorfismo permite que diferentes classes respondam de maneira diferente à mesma chamada de método, dependendo 
+da classe específica do objeto, proporcionando facilidade no design do sistema.
+
+
+
+
+
+
+
+
