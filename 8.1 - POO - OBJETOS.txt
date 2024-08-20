@@ -19,7 +19,7 @@ decisões e executando ações com base nas informações que possui.
 reutilizável, facilitando a modelagem de sistemas complexos e a manutenção do código a longo prazo.
 
 
-                                  "Importância dos Objetos no POO"
+                                  "Importância dos Objetos na POO"
 
  Objetos são uma base sobre a qual a Programação Orientada a Objetos é construída. Eles permitem que os 
 desenvolvedores criem modelos de software que reflitam a complexidade e a diversidade do mundo real, tornando o 
@@ -103,5 +103,5 @@ funcione corretamente dentro do sistema, respondendo de maneira específica às 
              modelo = "sedã"
              ano = 2020
              velocidade = 60(este atributo representa a velocidade atual do carro).
-    - O estado desse carro é uma combinação desses valores. Se o método acelerar()para chamar e velocidadea mudar    
-     para 80, o estado do carro também mud
+    - O estado desse carro é uma combinação desses valores. Se o método acelerar() e chamado para mudar velocidade    
+     para 80, o estado do carro também muda.
