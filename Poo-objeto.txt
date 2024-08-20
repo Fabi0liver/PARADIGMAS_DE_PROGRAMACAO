@@ -29,7 +29,9 @@ código mais organizado, reutilizável e fácil de manter.
 objetos representam entidades reais ou conceituais, eles facilitam a compreensão e o desenvolvimento de sistemas 
 complexos.
 
- Como os objetos encapsulam dados e comportamentos, eles promovem a reutilização de código. Você pode criar múltiplos objetos a partir de uma mesma classe e reutilizar suas funcionalidades sem precisar reescrever código. Isso também contribui para a modularidade, tornando o código mais organizado e fácil de manter.
+ Como os objetos encapsulam dados e comportamentos, eles promovem a reutilização de código. Você pode criar 
+múltiplos objetos a partir de uma mesma classe e reutilizar suas funcionalidades sem precisar reescrever código. 
+Isso também contribui para a modularidade, tornando o código mais organizado e fácil de manter.
 
  Objetos permitem o encapsulamento, ocultando os detalhes internos e expondo apenas uma interface pública. Isso 
 promove a abstração, simplificando a interação com o objeto e protegendo os dados internos contra acessos 
