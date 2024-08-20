@@ -1,0 +1,21 @@
+                                            POO: CLASSES
+
+
+ Uma classe na Programação Orientada a Objetos (POO) é uma construção fundamental que atua como uma descrição 
+abstrata e genérica de um conjunto de objetos que reúnem características e comportamentos comuns. Ela define o 
+"molde" ou "plano" a partir de quais objetos são criados, especificando tanto as propriedades (também conhecidas 
+como atributos) que os objetos têm quanto os comportamentos (também chamados de métodos) que poderão executar.
+
+ A classe é responsável por organizar e encapsular as características de um tipo de objeto, fornecendo uma 
+estrutura coerente que permite a criação de múltiplas instâncias (objetos) com base nas mesmas definições. Cada 
+objeto criado a partir de uma classe herdada de uma estrutura definida pela classe, mas pode conter valores 
+específicos para seus atributos, diferenciando-se de outras instâncias.
+
+ A classe, portanto, funciona como uma espécie de "projeto" ou "esqueleto" que define o que os objetos podem ser e 
+o que podem fazer, sem ser, por si só, uma instância concreta. Ela abstrai o conceito de um conjunto de objetos, 
+permitindo que o código seja organizado de maneira modular e reutilizável, facilitando a modelagem de sistemas 
+complexos no software.
+
+ De forma geral, a classe ajuda a organizar o código, promovendo a reutilização e a clareza, facilitando o 
+desenvolvimento de sistemas complexos para permitir que você modele diferentes tipos de entidades de forma 
+estruturada e consistente.
