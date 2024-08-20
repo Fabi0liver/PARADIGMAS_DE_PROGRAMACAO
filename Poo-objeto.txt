@@ -1,0 +1,105 @@
+                                              POO: OBJETOS
+
+ 
+ Um objeto na Programação Orientada a Objetos (POO) é uma entidade que encapsula dados e comportamentos, 
+representando uma abstração de algo do mundo real ou conceitual dentro de um sistema de software. Ele é uma 
+manifestação concreta de uma classe, que é a definição ou o "molde" do objeto.
+
+ Na POO, um objeto é uma instância de uma classe e é caracterizado pela sua capacidade de armazenar informações e 
+realizar ações. Cada objeto é único, com uma identidade própria que o distingue de outros objetos, mesmo que sejam 
+do mesmo tipo. Os objetos interagem entre si através de mensagens, trocando informações e executando ações em 
+conjunto para realizar as funcionalidades do software.
+
+ A essência de um objeto é sua capacidade de combinar tanto as características estáticas quanto as dinâmicas de 
+uma entidade, oferecendo uma representação mais próxima do mundo real dentro do contexto de um programa. Essa 
+combinação de dados e comportamentos em um único lugar permite que o objeto funcione de maneira autônoma, tomando 
+decisões e executando ações com base nas informações que possui.
+
+ Assim, o objeto é fundamental no POO para permitir que o software seja construído de forma modular, organizado e 
+reutilizável, facilitando a modelagem de sistemas complexos e a manutenção do código a longo prazo.
+
+
+                                  "Importância dos Objetos no POO"
+
+ Objetos são uma base sobre a qual a Programação Orientada a Objetos é construída. Eles permitem que os 
+desenvolvedores criem modelos de software que reflitam a complexidade e a diversidade do mundo real, tornando o 
+código mais organizado, reutilizável e fácil de manter. 
+
+ Objetos permitem que os desenvolvedores modelem problemas do mundo real de forma natural e intuitiva. Como os 
+objetos representam entidades reais ou conceituais, eles facilitam a compreensão e o desenvolvimento de sistemas 
+complexos.
+
+ Como os objetos encapsulam dados e comportamentos, eles promovem a reutilização de código. Você pode criar múltiplos objetos a partir de uma mesma classe e reutilizar suas funcionalidades sem precisar reescrever código. Isso também contribui para a modularidade, tornando o código mais organizado e fácil de manter.
+
+ Objetos permitem o encapsulamento, ocultando os detalhes internos e expondo apenas uma interface pública. Isso 
+promove a abstração, simplificando a interação com o objeto e protegendo os dados internos contra acessos 
+indevidos.
+
+ Esses objetivos são cruciais porque um POO é voltado para a criação de software que não seja apenas funcional, 
+mas também sustentável a longo prazo. Ao focar na organização, modularidade e reutilização de código, o POO 
+permite que sistemas complexos sejam desenvolvidos de forma mais eficiente, com menos erros, e que possam ser 
+interrompidos e escalados de maneira mais simples ao longo do tempo.
+
+ Além disso, a POO reflete uma maneira mais natural de pensar sobre problemas, mapeando conceitos do mundo real 
+para objetos de software. Isso torna a programação mais intuitiva e facilita o entendimento e a comunicação entre 
+desenvolvedores, especialmente em equipes grandes ou em projetos de longa duração.
+
+
+
+                                            "Conceitos do Objeto"
+
+ Vamos explorar detalhadamente cada um desses conceitos, já que eles são fundamentais para entender como a 
+Programação Orientada a Objetos (POO) funciona.
+
+- Atributos : São as características ou propriedades de um objeto que armazena informações sobre ele. Eles definem 
+os aspectos específicos de um objeto, determinando como ele se diferencia de outros objetos do mesmo tipo. Em 
+termos simples, os atributos são os detalhes que compõem a identidade de um objeto, como suas qualidades, 
+condições ou informações internas. Eles são os dados que o objeto carrega consigo e que podem ser acessados ​​ou 
+modificados conforme necessário. Os atributos são definidos na classe que cria o objeto e são instanciados em cada 
+objeto, permitindo que cada instância tenha seu próprio conjunto de valores para essas propriedades.
+
+   - Os atributos também são chamados de "propriedades" ou "variáveis ​​de instância".
+   - Cada atributo tem um valor associado, que define uma condição ou característica específica do objeto.
+   - Por exemplo, se tivermos um objeto da classe "Carro", alguns atributos poderiam ser:
+          cor: pode ser "vermelho", "azul", etc.
+          modelo: pode ser "sedã", "SUV", etc.
+          ano: pode ser 2020, 2021, etc.
+   - A definição e manipulação dos atributos permite que cada objeto tenha suas próprias características únicas, 
+    mesmo que todas as instâncias da mesma classe.
+
+
+- Métodos : São as funções ou procedimentos associados a um objeto que define o comportamento desse objeto, ou 
+seja, as ações que ele pode realizar. Eles operam sobre os atributos do objeto e podem alterar seu estado ou 
+realizar operações que afetem outros objetos ou o ambiente ao seu redor. Os métodos são a forma de um objeto de 
+interação com o mundo exterior, executando tarefas específicas que são relevantes para a funcionalidade do 
+sistema. Eles encapsulam uma lógica associada a um objeto, permitindo que a complexidade seja gerenciada e que o 
+comportamento do objeto seja definido de forma clara e organizada.
+
+   - Os métodos são responsáveis ​​por manipular os atributos do objeto e definir como ele interage com outros     
+    objetos ou com o ambiente ao seu redor.
+   - Métodos permitem que objetos façam coisas, como mudar seu estado interno ou interagir com outros objetos.
+   - Usando o exemplo do "Carro":
+           acelerar(): aumenta a velocidade do carro.
+           frear(): diminui a velocidade do carro.
+           ligar(): liga o motor do carro.
+           desligar():desliga o motor do carro.
+   - Os métodos podem receber parâmetros e retornar valores, assim como funções em linguagens de programação     
+     processual.
+
+
+- Estado : O estado de um objeto refere-se à condição atual do objeto em um momento específico, determinado pelos 
+valores atuais de seus atributos. O estado é dinâmico, ou seja, ele pode mudar ao longo do tempo conforme os 
+métodos do objeto são chamados e os valores dos atributos são alterados. O estado de um objeto capturado é o 
+conjunto de informações que definem sua situação em determinado instante, refletindo como o objeto "está" naquele 
+momento. Manter e manipular o estado de um objeto de forma eficaz é fundamental para garantir que o objeto 
+funcione corretamente dentro do sistema, respondendo de maneira específica às operações realizadas sobre ele.
+
+    - O estado de um objeto pode mudar ao longo do tempo, conforme os métodos são chamados e os atributos são      
+     modificados.
+    - Por exemplo, imagine que temos um objeto "Carro" com os seguintes atributos e valores:
+             cor = "vermelho"
+             modelo = "sedã"
+             ano = 2020
+             velocidade = 60(este atributo representa a velocidade atual do carro).
+    - O estado desse carro é uma combinação desses valores. Se o método acelerar()para chamar e velocidadea mudar    
+     para 80, o estado do carro também mud
