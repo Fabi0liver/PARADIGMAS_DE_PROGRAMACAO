@@ -24,7 +24,6 @@ estruturada e consistente.
 
                                    "Importância das Classes na POO"
 
-
 - A classe atua como um modelo a partir de quais múltiplos objetos podem ser criados. Por exemplo, se você tem uma 
 classe chamada "Carro", ela define características comuns a todos os carros, como cor, modelo, fabricante, e 
 comportamentos comuns, como acelerar e frear. Cada carro que você cria é uma instância dessa classe, seguindo o 
@@ -56,8 +55,54 @@ da classe específica do objeto, proporcionando facilidade no design do sistema.
 
 
 
+                                        "Diagrama de Classes"
+
+ O diagrama de classes é uma das principais representações gráficas usadas na modelagem voltada para objetos, e 
+faz parte da Unified Modeling Language (UML) , uma linguagem padrão para visualização, visualização, construção e 
+documentação de sistemas de software.
+
+ Um diagrama de classes é uma representação visual das classes que compõem um sistema e das relações entre elas. 
+Ele é fundamental para o design de sistemas orientados a objetos porque ajuda a organizar e estruturar o código, 
+mostrando como diferentes partes do sistema se conectam e interagem.
+
+* Elementos de um Diagrama de Classes:
+
+- Aulas: Representadas como retângulos que são divididos em três partes.
+ 		
+ Nome da classe : No topo do retângulo, representando o nome da entidade.
+	  
+ Atributos : No meio, onde são listados os atributos ou propriedades que descrevem a classe.
+	  
+ Métodos : Na parte inferior, onde são descritos os comportamentos ou operações que a classe pode  realizar.
+
+- Relacionamentos:
+
+ Associação: Representa uma conexão entre duas ou mais classes. Pode ser unidirecional ou bidirecional,  
+            diminuindo se uma classe conhece a outra.
+
+ Agregação: Um tipo especial de associação que indica uma relação todo/parte, onde a parte pode existir 
+           independentemente de todo.
+
+ Composição: Um tipo mais forte de agregação onde as partes não podem existir independentemente de todo.
+
+ Herança (Generalização): Representa uma relação de especialização/generalização entre classes, onde uma classe 
+                         "filha" herda características e comportamentos de uma classe "pai".
+
+ Dependência: Uma relação onde uma classe depende de outra para funcionar corretamente, mas a dependência é falha 
+             e temporário.
+
+ Realização: Usado para indicar que uma classe ou interface realiza um contrato definido por outra interface.
 
 
+* Propósito do Diagrama de Classes:
 
+ O diagrama de classes serve como um mapa que ajuda desenvolvedores e engenheiros de software a visualizar a 
+estrutura de um sistema e entender a interação de diferentes partes. Ele é útil tanto na fase de design, para 
+planejar a arquitetura do sistema, quanto na fase de implementação, para garantir que o código esteja organizado 
+de forma consistente e eficiente.
+
+ Em resumo, o diagrama de classes é uma ferramenta essencial para quem trabalha com programação orientada a 
+objetos, pois oferece uma visão clara e detalhada da estrutura do sistema, facilitando a comunicação entre os 
+membros da equipe e a manutenção do código ao longo do tempo.
 
 
