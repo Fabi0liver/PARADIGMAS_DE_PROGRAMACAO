@@ -67,31 +67,34 @@ mostrando como diferentes partes do sistema se conectam e interagem.
 
 * Elementos de um Diagrama de Classes:
 
-- Aulas: Representadas como retângulos que são divididos em três partes.
+- Classes: Representadas como retângulos que são divididos em três partes.
  		
- Nome da classe : No topo do retângulo, representando o nome da entidade.
+  Nome da classe : No topo do retângulo, representando o nome da entidade. Normalmente com a palavra em negrito e     
+                  a primeira letra maiúscula.
 	  
- Atributos : No meio, onde são listados os atributos ou propriedades que descrevem a classe.
+  Atributos : No meio, onde são listados os atributos ou propriedades que descrevem a classe. Normalmente com
+             com todas as letras da palavra minúsculas
 	  
- Métodos : Na parte inferior, onde são descritos os comportamentos ou operações que a classe pode  realizar.
+  Métodos : Na parte inferior, onde são descritos os comportamentos ou operações que a classe pode  realizar.
+           Normalmente com todas as letras minúsculas, e com um parênteses no final(como uma função/procedimento) 
 
 - Relacionamentos:
 
- Associação: Representa uma conexão entre duas ou mais classes. Pode ser unidirecional ou bidirecional,  
+  Associação: Representa uma conexão entre duas ou mais classes. Pode ser unidirecional ou bidirecional,  
             diminuindo se uma classe conhece a outra.
 
- Agregação: Um tipo especial de associação que indica uma relação todo/parte, onde a parte pode existir 
+  Agregação: Um tipo especial de associação que indica uma relação todo/parte, onde a parte pode existir 
            independentemente de todo.
 
- Composição: Um tipo mais forte de agregação onde as partes não podem existir independentemente de todo.
+  Composição: Um tipo mais forte de agregação onde as partes não podem existir independentemente de todo.
 
- Herança (Generalização): Representa uma relação de especialização/generalização entre classes, onde uma classe 
+  Herança (Generalização): Representa uma relação de especialização/generalização entre classes, onde uma classe 
                          "filha" herda características e comportamentos de uma classe "pai".
 
- Dependência: Uma relação onde uma classe depende de outra para funcionar corretamente, mas a dependência é falha 
+  Dependência: Uma relação onde uma classe depende de outra para funcionar corretamente, mas a dependência é falha 
              e temporário.
 
- Realização: Usado para indicar que uma classe ou interface realiza um contrato definido por outra interface.
+  Realização: Usado para indicar que uma classe ou interface realiza um contrato definido por outra interface.
 
 
 * Propósito do Diagrama de Classes:
@@ -106,3 +109,151 @@ objetos, pois oferece uma visão clara e detalhada da estrutura do sistema, faci
 membros da equipe e a manutenção do código ao longo do tempo.
 
 
+
+                                    "Modificadores de Visibilidade"
+
+ Modificadores de visibilidade são palavras-chave ou especificadas que definem o nível de acesso aos componentes 
+de uma classe (como atributos e métodos). Eles ajudam a controlar o acesso a diferentes partes do código e 
+garantem que as informações confidenciais ou internas sejam protegidas contra alterações não autorizadas. Os 
+modificadores de visibilidade são elementos fundamentais na Programação Orientada a Objetos que controlam o acesso 
+aos membros de uma classe, como atributos e métodos. Eles determinam quem pode interagir com esses membros e em 
+que contexto essa interação é permitida.
+
+ O principal propósito dos modificadores de visibilidade é implementar o princípio de encapsulamento , que é um 
+dos pilares da Programação Orientada a Objetos. O encapsulamento visa ocultar os detalhes internos da 
+implementação de uma classe e expor apenas o que for necessário para o uso externo. Isso contribui para a 
+segurança dos dados, a manutenção da integridade dos objetos e a clareza no design do sistema.
+
+ O uso de modificadores de visibilidade influencia diretamente o design e a arquitetura do sistema, ajudando a 
+definir quais partes da classe devem ser expostas e quais devem permanecer ocultas. Isso tem um impacto 
+significativo na maneira como as classes interagem entre si e como os sistemas são construídos e mantidos.
+
+
+* Aspectos detalhados dos modificadores de visibilidade:
+
+ - Controle de Acesso:
+
+	Granularidade do Acesso: Modificadores de visibilidade permitem um controle detalhado sobre quem pode  
+                                acessar e modificar membros de uma classe. Eles podem ser aplicados em nível de  
+                                classe, protegendo dados sensíveis ou funcionalidades que não devem ser expostas 
+                                publicamente.
+
+	Visibilidade Interna vs. Externa: Dependendo do modificador de visibilidade, um membro pode ser acessível 
+                                         apenas dentro da própria classe, dentro da mesma classificação de classes 
+                                         (subclasses), ou a partir de qualquer parte do programa. Isso define 
+                                         quais partes do código têm permissão para interagir com quais membros.
+
+
+ - Encapsulamento:
+
+	Proteção de Dados: Encapsulamento é o conceito de ocultar a implementação interna de uma classe e expor 
+                          apenas o que for necessário. Modificadores de visibilidade ajudam a alcançar isso ao 
+                          tornar alguns membros inacessíveis fora da classe, evitando manipulações indesejadas ou 
+                          inseguras.
+
+	Interfaces Controladas: Através de modificadores de visibilidade, você pode controlar a forma como as 
+                               classes interagem com os dados e métodos. Isso permite criar interfaces públicas 
+                               que os usuários da classe possam utilizar, ao mesmo tempo em que mantém os detalhes 
+                               de procedimentos internos protegidos.
+
+
+ - Organização e Manutenção:
+
+	Clareza no Design: Modificadores de visibilidade ajudam a definir claramente quais partes de uma classe 
+                          fazem parte de sua interface pública e quais são detalhes internos. Isso organiza o 
+                          código de maneira mais compreensível e facilita a leitura e manutenção do sistema.
+
+	Modularidade: permite que diferentes partes do sistema sejam planejadas e testadas independentemente.  
+                     Classes e métodos podem ser projetados com visibilidade adequada para garantir que apenas as 
+                     partes do sistema interajam entre si, promovendo uma arquitetura modular e escalável.
+
+
+ - Segurança e Robustez:
+
+	Impedimento de uso indevido: Ao restringir o acesso a certos membros, você evita que outras partes do 
+                                    programa tornem o uso indevido ou incorreto desses membros. Isso contribui 
+                                    para a robustez do sistema e reduz o risco de falhas devido a modificações  
+                                    inesperadas.
+
+	Garantia de Integridade: Protege a integridade dos dados dentro de uma classe. Por exemplo, se um atributo 
+                                é privado, você pode garantir que ele só seja modificado por métodos específicos, 
+                                preservando a consistência dos dados.
+
+
+ - Impacto no Design de Software:
+
+	Redução de Acoplamento: Modificadores de visibilidade ajudam a reduzir a proteção entre as classes, ao 
+                               limitar o acesso a membros internos. Isso facilita a manutenção e a evolução do 
+                               sistema, pois mudanças em uma classe têm menos impacto sobre outras partes do 
+                               código.
+
+	Facilitação de Manutenção: Definir claramente a visibilidade dos membros ajuda a manter a classe mais 
+                                  compreensível e menos propensa a erros. Mudanças no design podem ser feitas com 
+                                  maior confiança, sabendo que a visibilidade controla como essas mudanças afetam 
+                                  outras partes do sistema.
+
+
+* Principais Modificadores de Visibilidade e Seus Papéis:
+
+
+ - 'public'(Público)[UML: +]: O modificador 'public' indica que o membro de uma classe é acessível de qualquer 
+lugar no código, independentemente do pacote ou módulo em que ele utiliza. Isso significa que não há restrições 
+quanto a quem pode acessar ou modificar esse membro.
+
+ 	Impacto: A utilização ou modificador 'public' expõe a funcionalidade de uma classe para todos os outros  
+                componentes do sistema. É proteção quando você deseja que um atributo ou método seja extremamente 
+                acessível e utilizável por outras partes do programa. 	
+	
+	Uso Típico: O modificador 'public' é usado quando você deseja exportar uma interface pública da classe, 
+                   permitindo que outras partes do código utilizem esses membros livremente. No entanto, deve-se  
+                   ter cuidado ao usar 'public', pois isso significa que qualquer parte do código pode modificar 
+                   ou acessar esses membros, o que pode levar a um encapsulamento específico.
+
+
+- 'private'(Privado)[UML: -]: A alteração do 'private' designa de que o membro da classe só pode ser acessado e 
+modificado dentro da própria classe em que foi declarado. Isso significa que nenhum outro código fora da classe 
+pode ver ou alterar diretamente esse membro.
+
+	Impacto: O uso de 'private' é crucial para garantir que a implementação interna de uma classe protegida de 
+                acessos externos. Esse nível de proteção ajuda a manter a integridade dos dados e controlar como 
+                os dados internos são manipulados, permitindo que apenas uma classe própria possa acessar ou 
+                modificar suas informações.
+
+	Uso Típico: O modificador 'private' é utilizado para ocultar detalhes internos de uma classe, protegendo 
+                   dados de acesso ou modificações não autorizadas. Isso promove o encapsulamento e garante que a 
+                   integridade do objeto seja mantida, pois somente a própria classe pode manipular seus dados 
+                   internos diretamente.
+
+- 'protected'(Protegido):[UML: #]: O modificador 'protected' permite que o membro da classe seja acessado dentro 
+da própria classe, em qualquer subclasse (classe derivada) e, em algumas linguagens, por outras classes que estão 
+no mesmo pacote ou módulo. Ele fornece um nível de acesso intermediário entre 'public' e 'private'.
+
+	Impacto: O modificador 'protected' é útil quando você deseja que as subclasses possam acessar e utilizar 
+                membros da classe base sem torná-los acessíveis a todo o código. Isso é particularmente importante 
+                em sistemas que possuem herança, pois permite que as subclasses estendam e modifiquem o 
+                comportamento da classe base, mantendo algum nível de proteção em relação ao acesso externo.
+
+	Uso Típico: O modificador 'protected' é útil quando você deseja permitir que classes derivadas tenham 
+                   acesso a detalhes internos da classe base, facilitando a extensão e a reutilização de código, 
+                   mas ainda limita o acesso a outros usuários fora dessa posição.
+
+
+- 'default' ou Sem Modificador (Pacote-Privado): Quando nenhum modificador de visibilidade é especificado, o 
+membro da classe possui um nível de visibilidade padrão, geralmente conhecido como "default" ou "pacote-privado". 
+Isso significa que o membro é acessível apenas pelas classes que estão no mesmo pacote ou módulo, mas não por 
+classes em pacotes ou módulos diferentes.
+
+	Impacto: Esse nível de visibilidade é útil para organizar e encapsular código dentro de um pacote  
+                específico. Ele permite que as aulas dentro do mesmo pacote interajam diretamente, enquanto evita 
+                acesso externo não autorizado. Esse comportamento padrão promove uma certa modularidade e 
+                encapsulamento, limitando a exposição dos membros da classe a outras partes do sistema fora do 
+                pacote.
+
+	Uso Típico: Este nível de visibilidade é útil para organizar código que deve ser acessível apenas dentro 
+                   de um conjunto específico
+
+
+ Os modificadores de visibilidade são uma ferramenta essencial para controlar o acesso aos membros de uma classe, 
+desempenhando um papel crucial na implementação de encapsulamento, organização do código, segurança dos dados e 
+modularidade do sistema. Eles ajudam a definir claramente o que está exposto e protegido dentro do sistema, 
+promovendo um design mais robusto e sustentável.
