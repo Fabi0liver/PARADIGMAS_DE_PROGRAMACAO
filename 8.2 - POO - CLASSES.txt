@@ -21,7 +21,6 @@ desenvolvimento de sistemas complexos para permitir que você modele diferentes 
 estruturada e consistente.
 
 
-
                                    "Importância das Classes na POO"
 
 - A classe atua como um modelo a partir de quais múltiplos objetos podem ser criados. Por exemplo, se você tem uma 
@@ -52,7 +51,6 @@ classe seja baseada em uma classe existente, herdando seus atributos e métodos,
 funcionalidades. Isso facilita a criação de gerenciadores de classes e promove a reutilização de código. O 
 polimorfismo permite que diferentes classes respondam de maneira diferente à mesma chamada de método, dependendo 
 da classe específica do objeto, proporcionando facilidade no design do sistema.
-
 
 
                                         "Diagrama de Classes"
@@ -109,7 +107,6 @@ objetos, pois oferece uma visão clara e detalhada da estrutura do sistema, faci
 membros da equipe e a manutenção do código ao longo do tempo.
 
 
-
                                     "Modificadores de Visibilidade"
 
  Modificadores de visibilidade são palavras-chave ou especificadas que definem o nível de acesso aos componentes 
@@ -143,7 +140,6 @@ significativo na maneira como as classes interagem entre si e como os sistemas s
                                          (subclasses), ou a partir de qualquer parte do programa. Isso define 
                                          quais partes do código têm permissão para interagir com quais membros.
 
-
  - Encapsulamento:
 
 	Proteção de Dados: Encapsulamento é o conceito de ocultar a implementação interna de uma classe e expor 
@@ -156,7 +152,6 @@ significativo na maneira como as classes interagem entre si e como os sistemas s
                                que os usuários da classe possam utilizar, ao mesmo tempo em que mantém os detalhes 
                                de procedimentos internos protegidos.
 
-
  - Organização e Manutenção:
 
 	Clareza no Design: Modificadores de visibilidade ajudam a definir claramente quais partes de uma classe 
@@ -166,7 +161,6 @@ significativo na maneira como as classes interagem entre si e como os sistemas s
 	Modularidade: permite que diferentes partes do sistema sejam planejadas e testadas independentemente.  
                      Classes e métodos podem ser projetados com visibilidade adequada para garantir que apenas as 
                      partes do sistema interajam entre si, promovendo uma arquitetura modular e escalável.
-
 
  - Segurança e Robustez:
 
@@ -178,7 +172,6 @@ significativo na maneira como as classes interagem entre si e como os sistemas s
 	Garantia de Integridade: Protege a integridade dos dados dentro de uma classe. Por exemplo, se um atributo 
                                 é privado, você pode garantir que ele só seja modificado por métodos específicos, 
                                 preservando a consistência dos dados.
-
 
  - Impacto no Design de Software:
 
@@ -208,7 +201,6 @@ quanto a quem pode acessar ou modificar esse membro.
                    ter cuidado ao usar 'public', pois isso significa que qualquer parte do código pode modificar 
                    ou acessar esses membros, o que pode levar a um encapsulamento específico.
 
-
 - 'private'(Privado)[UML: -]: A alteração do 'private' designa de que o membro da classe só pode ser acessado e 
 modificado dentro da própria classe em que foi declarado. Isso significa que nenhum outro código fora da classe 
 pode ver ou alterar diretamente esse membro.
@@ -236,7 +228,6 @@ no mesmo pacote ou módulo. Ele fornece um nível de acesso intermediário entre
                    acesso a detalhes internos da classe base, facilitando a extensão e a reutilização de código, 
                    mas ainda limita o acesso a outros usuários fora dessa posição.
 
-
 - 'default' ou Sem Modificador (Pacote-Privado): Quando nenhum modificador de visibilidade é especificado, o 
 membro da classe possui um nível de visibilidade padrão, geralmente conhecido como "default" ou "pacote-privado". 
 Isso significa que o membro é acessível apenas pelas classes que estão no mesmo pacote ou módulo, mas não por 
@@ -251,12 +242,10 @@ classes em pacotes ou módulos diferentes.
 	Uso Típico: Este nível de visibilidade é útil para organizar código que deve ser acessível apenas dentro 
                    de um conjunto específico
 
-
  Os modificadores de visibilidade são uma ferramenta essencial para controlar o acesso aos membros de uma classe, 
 desempenhando um papel crucial na implementação de encapsulamento, organização do código, segurança dos dados e 
 modularidade do sistema. Eles ajudam a definir claramente o que está exposto e protegido dentro do sistema, 
 promovendo um design mais robusto e sustentável.
-
 
 
 			            "Métodos Especiais"
