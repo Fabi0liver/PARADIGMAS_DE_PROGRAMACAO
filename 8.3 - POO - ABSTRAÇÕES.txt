@@ -15,7 +15,9 @@ precisar entender toda a complexidade subjacente.
 componentes mais gerenciáveis. Isso melhora a legibilidade do código e facilita a manutenção, pois cada parte do 
 sistema pode ser desenvolvida e compreendida de forma isolada.
 
- Além disso, a abstração também promove a reutilização de código, pois componentes abstratos podem ser aplicados a diferentes contextos sem modificação. A criação de interfaces e classes abstratas permite que diferentes implementações compartilhem a mesma interface, reforçando a modularidade do sistema.
+ Além disso, a abstração também promove a reutilização de código, pois componentes abstratos podem ser aplicados a
+diferentes contextos sem modificação. A criação de interfaces e classes abstratas permite que diferentes 
+implementações compartilhem a mesma interface, reforçando a modularidade do sistema.
 
  Finalmente, a abstração promove uma maior coesão e menor acoplamento no design de software. Isso significa que os 
 componentes do sistema se mantêm focados em uma única responsabilidade e interagem de forma controlada, o que 
