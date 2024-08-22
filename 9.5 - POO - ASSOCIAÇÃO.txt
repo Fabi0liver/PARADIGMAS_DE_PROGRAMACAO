@@ -23,3 +23,44 @@ trabalhar juntos de forma eficiente. É como criar uma rede de relacionamentos q
 seu sistema se integrem e colaborem.
 
 
+
+                                 "Direcionalidade na Associação"
+
+ Direcionalidade na associação é uma maneira de descrever como as classes se conectam e interagem dentro de um 
+sistema. Em termos simples, é sobre quem conhece quem e como os objetos de diferentes classes podem se comunicar 
+entre si.
+
+ Imagine que você tem duas classes diferentes em seu sistema, cada uma representando um tipo de objeto. A 
+direcionalidade define se essas classes podem se "ver" uma à outra ou apenas uma delas pode ver a outra. Assim, a 
+direcionalidade lida com a forma como o conhecimento e a comunicação são organizados entre essas classes.
+
+ Portanto, a direcionalidade é um aspecto importante para entender como os objetos se relacionam e interagem 
+dentro do sistema. Ela ajuda a estruturar a maneira como as classes estão conectadas e como elas podem colaborar, 
+garantindo que a comunicação entre os objetos seja clara e bem definida.
+
+ A direcionalidade na associação mostra como as classes estão relacionadas em termos de conhecimento e 
+interação. Pode ser unidirecional, com uma classe sabendo sobre a outra, ou bidirecional, onde ambas têm 
+conhecimento mútuo.
+
+ - Unidirecional: Na associação unidirecional, apenas uma das classes tem conhecimento da outra. Isso significa 
+  que um objeto de uma classe pode acessar e utilizar os métodos e atributos de um objeto da outra classe, mas o 
+  objeto da segunda classe não tem acesso de volta ao objeto da primeira classe. Em termos práticos, isso cria uma 
+  relação onde apenas um lado da associação é ativo e pode invocar métodos no outro lado, enquanto o outro lado é 
+  "cego" para essa conexão.
+
+ - Bidirecional: Na associação bidirecional, ambas as classes têm conhecimento uma da outra. Isso permite que os 
+  objetos de ambas as classes interajam mutuamente. Por exemplo, se uma classe "Aluno" está associada a uma 
+  classe "Curso" de forma bidirecional, um objeto "Aluno" pode acessar informações sobre o "Curso", e ao mesmo 
+  tempo, o objeto "Curso" pode acessar informações sobre o "Aluno". Essa direcionalidade facilita uma comunicação 
+  mais completa entre os objetos e permite uma interação mais rica e dinâmica.
+
+ A direcionalidade é importante porque afeta como os objetos interagem e como a lógica de negócio é implementada. 
+Em uma associação unidirecional, o sistema pode ser mais simples e mais fácil de entender, pois há uma única 
+direção de comunicação. Já a bidirecionalidade permite uma interação mais flexível e completa, mas pode exigir 
+mais cuidado para evitar complexidades adicionais, como dependências circulares ou dificuldades na manutenção do 
+código.
+
+ Em resumo, a direcionalidade na associação define como e quem pode acessar e interagir com os objetos de outras 
+classes. Ela pode ser unidirecional, onde uma classe conhece e interage com outra sem reciprocidade, ou 
+bidirecional, onde ambas as classes têm acesso mútuo e podem interagir entre si.
+
