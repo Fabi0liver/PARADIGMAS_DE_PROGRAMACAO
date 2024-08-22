@@ -64,3 +64,60 @@ código.
 classes. Ela pode ser unidirecional, onde uma classe conhece e interage com outra sem reciprocidade, ou 
 bidirecional, onde ambas as classes têm acesso mútuo e podem interagir entre si.
 
+
+
+                                    "Cardinalidade na Associação"
+
+ Cardinalidade na associação é um conceito que descreve quantas instâncias de uma classe podem se relacionar com 
+quantas instâncias de outra classe em um sistema. Em termos simples, é sobre a quantidade de objetos de uma classe 
+que podem estar conectados a objetos de outra classe. 
+
+ Para entender melhor, imagine que você tem duas classes em seu sistema. A cardinalidade define o número máximo e 
+mínimo de objetos de uma classe que podem se associar com objetos da outra classe. Por exemplo, se você tem uma 
+classe "Aluno" e uma classe "Curso", a cardinalidade ajuda a determinar quantos alunos podem se matricular em um 
+curso e quantos cursos um aluno pode fazer.
+
+ A cardinalidade é importante porque ajuda a especificar as regras e as restrições das relações entre as classes. 
+Ela garante que o modelo do sistema reflita a maneira como as entidades do mundo real estão conectadas e interagem 
+entre si.
+
+Aqui estão os principais tipos de cardinalidade na associação:
+
+ - Um para Um (1:1): Esse tipo de cardinalidade significa que para cada objeto de uma classe, há no máximo um  
+  objeto correspondente em outra classe. É uma relação de exclusividade mútua.
+
+	Exemplo: Imagine um sistema de registros de veículos. Cada "Veículo" tem um "Número de Placa" único. 
+                Portanto, um veículo tem exatamente um número de placa e cada número de placa está associado a 
+                apenas um veículo.
+
+ - Um para Muitos (1:N): Aqui, um objeto de uma classe pode estar associado a muitos objetos de outra classe, mas 
+  cada objeto da segunda classe está associado a apenas um objeto da primeira classe.
+
+	Exemplo: Pense em um professor e suas aulas. Um "Professor" pode dar várias "Aulas". No entanto, cada aula 
+                é ministrada por apenas um professor.
+
+ - Muitos para Muitos (N:N): Neste tipo, muitos objetos de uma classe podem estar associados a muitos objetos de outra classe. Não há um limite fixo no número de conexões entre os objetos de ambas as classes.
+
+	Exemplo: Considere um sistema de gerenciamento de cursos e alunos. Um "Aluno" pode se matricular em vários 
+                "Cursos", e cada curso pode ter vários alunos.
+
+ - Um para Nenhum ou Um para Opcional (1:0..1): Essa cardinalidade indica que uma instância de uma classe pode estar associada a zero ou uma instância de outra classe. A associação não é obrigatória.
+
+	Exemplo: Imagine um sistema de gerenciamento de funcionários. Um "Funcionário" pode ter um "Telefone de 
+                Escritório", mas não é obrigatório ter um telefone.
+
+ - Muitos para Um (N:1): Aqui, muitos objetos de uma classe estão associados a um único objeto de outra classe. É o oposto de "Um para Muitos".
+
+	Exemplo: Pense em um sistema de gerenciamento de vendas onde muitos "Pedidos" são feitos por um único  
+                "Cliente". Cada pedido é feito por um cliente específico, mas um cliente pode fazer muitos 
+                pedidos.
+
+ Entender a cardinalidade é essencial para modelar corretamente o sistema, garantindo que as relações entre os 
+objetos sejam precisas e reflitam a realidade do domínio. Ela define os limites e as regras de interação entre os 
+objetos, o que é crucial para garantir a integridade e a funcionalidade do sistema.
+
+ Em resumo, a cardinalidade na associação especifica quantas instâncias de uma classe podem estar relacionadas a 
+quantas instâncias de outra classe. Ela ajuda a modelar as relações e interações no sistema de forma clara e 
+estruturada.
+
+
