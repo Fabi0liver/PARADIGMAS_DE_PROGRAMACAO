@@ -1,0 +1,25 @@
+                                              POO: ASSOCIAÇÃO
+
+ Na Programação Orientada a Objetos (POO), a associação é uma forma de conectar objetos de diferentes classes para 
+que eles possam interagir e colaborar. Pense na associação como uma ponte que liga duas ou mais classes, permitindo 
+que seus objetos se comuniquem e utilizem as funcionalidades uns dos outros.
+
+ Imagine que você tem uma classe chamada "Livro" e outra chamada "Autor". A associação entre essas duas classes 
+indica que um livro pode estar ligado a um ou mais autores, e um autor pode ter escrito vários livros. É como se 
+estivéssemos dizendo que, para entender a relação entre livros e autores, precisamos reconhecer que um livro pode 
+ter vários autores e vice-versa.
+
+ Essa conexão é representada em diagramas de classes por uma linha que une as duas classes. Esse tipo de linha 
+mostra como os objetos das classes se relacionam. A associação ajuda a definir como esses objetos vão interagir, 
+mas sem fazer com que uma classe se torne parte da outra. Em vez disso, ela permite que um objeto saiba sobre e 
+utilize outro objeto de maneira organizada.
+
+ Então, na prática, se você estiver criando um sistema e precisar que seus objetos se comuniquem entre si, você 
+usa associações para estabelecer essas relações. Dessa forma, seu sistema pode gerenciar as conexões entre 
+diferentes partes de forma clara e estruturada, facilitando o desenvolvimento e a compreensão do software.
+
+ Em resumo, a associação na POO é uma maneira de conectar objetos de classes diferentes para que eles possam 
+trabalhar juntos de forma eficiente. É como criar uma rede de relacionamentos que permite que diferentes partes do 
+seu sistema se integrem e colaborem.
+
+
