@@ -61,7 +61,8 @@ realizadas de acordo com as regras estabelecidas pela classe.
 
                            "Características Importantes do Encapsulamento"
 
- O encapsulamento é um dos pilares da Programação Orientada a Objetos (POO) e possui várias características importantes que ajudam a estruturar e proteger o código. A seguir estão algumas das características mais relevantes:
+ O encapsulamento é um dos pilares da Programação Orientada a Objetos (POO) e possui várias características 
+importantes que ajudam a estruturar e proteger o código. A seguir estão algumas das características mais relevantes:
 
  - Controle de Acesso: O encapsulamento permite que os dados e métodos de uma classe sejam protegidos e acessíveis   
   apenas de maneira controlada. Isso é feito por meio dos modificadores de acesso, como 'private', 'protected', e  
@@ -104,7 +105,8 @@ sistema seja mais fácil de entender, manter e expandir.
 
                               "Mensagens no contexto do encapsulamento em POO"
 
- No contexto da programação orientada a objetos (POO), uma mensagem é uma solicitação que um meios externos faz para uma classe, para realizar uma ação ou fornecer informações. Essa comunicação entre eles é fundamental para o 
+ No contexto da programação orientada a objetos (POO), uma mensagem é uma solicitação que um meios externos faz 
+para uma classe, para realizar uma ação ou fornecer informações. Essa comunicação entre eles é fundamental para o 
 encapsulamento, que é um dos princípios centrais da POO. O encapsulamento se refere ao conceito de ocultar os 
 detalhes internos de um objeto e expor apenas uma interface pública que outros objetos podem usar para interagir 
 com ele.
@@ -115,7 +117,11 @@ considere um sistema de gerenciamento de 'biblioteca'. O objeto 'Livro' pode env
 'Biblioteca' solicitando a disponibilidade de um tipo de livro. A classe 'Biblioteca' processa essa solicitação e 
 responde com a informação requerida.
 
- O encapsulamento é mantido porque o objeto que envia a mensagem não precisa conhecer os detalhes internos da classe e nem como a solicitação é processada. Ele apenas precisa saber que pode enviar uma mensagem e receber uma resposta. Isso protege o estado interno do objeto, garantindo que ele não seja alterado diretamente por outros objetos. Apenas os métodos fornecidos pela interface pública da classe estão disponíveis para interações externas, e os detalhes internos são acessíveis apenas de maneira controlada.
+ O encapsulamento é mantido porque o objeto que envia a mensagem não precisa conhecer os detalhes internos da
+classe e nem como a solicitação é processada. Ele apenas precisa saber que pode enviar uma mensagem e receber uma
+resposta. Isso protege o estado interno do objeto, garantindo que ele não seja alterado diretamente por outros 
+objetos. Apenas os métodos fornecidos pela interface pública da classe estão disponíveis para interações externas,
+e os detalhes internos são acessíveis apenas de maneira controlada.
 
  Essa abordagem promove a modularidade e a manutenção do código, já que mudanças uma classe não afetam os outros  
 que interagem com ela, desde que a interface pública permaneça consistente. Assim, o encapsulamento e as mensagens 
