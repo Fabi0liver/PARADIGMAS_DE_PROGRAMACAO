@@ -42,7 +42,9 @@ métodos privados (private) só podem ser acessados ou modificados dentro da pr�
 públicos (public) são acessíveis de fora da classe, mas geralmente operam sobre dados privados. Essa abordagem 
 ajuda a garantir que os dados sejam manipulados apenas de maneiras controladas e seguras.
 
- Em uma classe bem encapsulada, os dados são protegidos e só podem ser acessados ou modificados por meio de métodos específicos, conhecidos como "métodos acessores" (getters) e "métodos modificadores" (setters). Isso ajuda a evitar que partes externas do código alterem o estado do objeto de maneira inesperada ou inadequada.
+ Em uma classe bem encapsulada, os dados são protegidos e só podem ser acessados ou modificados por meio de métodos
+específicos, conhecidos como "métodos acessores" (getters) e "métodos modificadores" (setters). Isso ajuda a evitar
+que partes externas do código alterem o estado do objeto de maneira inesperada ou inadequada.
 
  Ao expor apenas uma interface pública controlada, o encapsulamento permite que os desenvolvedores definam regras 
 e validações para o uso dos dados, garantindo que o estado interno do objeto permaneça consistente e válido. Isso 
