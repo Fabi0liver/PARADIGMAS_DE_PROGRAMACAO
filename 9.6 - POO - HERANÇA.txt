@@ -1,0 +1,52 @@
+                                               POO: HERANÇA
+
+
+ Herança, na Programação Orientada a Objetos (POO), é como uma ferramenta que nos ajuda a organizar melhor nosso 
+código e evitar repetição. Imagine que você está desenhando um sistema onde várias coisas compartilham 
+características semelhantes. Ao invés de criar tudo do zero para cada coisa, você pode usar a herança para 
+reaproveitar o que já foi feito.
+
+ Pense numa classe como um molde. Digamos que você tem um molde para "Veículo". Esse molde define características 
+comuns a todos os veículos, como "cor", "velocidade" e a capacidade de "ligar" e "desligar". Agora, imagine que você 
+precisa criar moldes mais específicos, como "Carro" e "Moto". Em vez de começar do zero, você pode pegar o molde 
+"Veículo" e usá-lo como base. Assim, o "Carro" e a "Moto" herdam todas as características de "Veículo", mas você 
+pode adicionar ou modificar detalhes específicos para cada um.
+
+ A herança funciona assim: ela cria uma relação entre uma classe "Mãe" (ou base) e uma classe "filha" (ou 
+derivada). A classe filha herda tudo que a classe pai tem, mas pode também acrescentar coisas novas ou mudar algo 
+que não seja exatamente o que precisa. Isso ajuda a manter o código organizado, porque se no futuro você precisar 
+mudar algo que é comum a todos os veículos, como a forma de "ligar", você só precisa mudar na classe "Veículo", e 
+isso automaticamente se aplica a todas as classes que herdam dela, como "Carro" e "Moto".
+
+ Além de evitar a repetição de código, a herança também nos dá uma forma clara de organizar nosso sistema em uma 
+hierarquia. É como criar uma árvore genealógica para seu código, onde você sabe de onde cada coisa veio e como 
+estão conectadas. Essa estrutura facilita tanto o entendimento quanto a manutenção do sistema.
+
+ Outro ponto importante é que a herança nos permite estender o comportamento das classes. Se você perceber que 
+precisa de algo novo ou diferente em uma classe derivada, você pode adicionar essa funcionalidade na própria 
+classe derivada sem tocar na classe base. Isso mantém as coisas mais seguras e evita que uma mudança acabe 
+quebrando outras partes do sistema que dependem daquela classe base.
+
+ A herança é uma maneira inteligente de construir sistemas em POO, permitindo que você reutilize código, organize 
+suas classes de forma lógica e mantenha tudo fácil de entender e de modificar. É como construir sobre uma base 
+sólida e, ao mesmo tempo, deixar espaço para crescer e se adaptar conforme necessário.
+
+ Na herança, a hierarquia refere-se à maneira como as classes são organizadas em níveis, onde uma classe pode ser 
+"mãe" de outras e passar adiante suas características. Pense nisso como uma árvore genealógica, onde as classes 
+"mãe" estão no topo e as "filhas" estão embaixo.
+
+ - Superclasse: É a classe "mãe" ou "base" da qual outras classes herdam características. A superclasse contém 
+  atributos e métodos que podem ser reutilizados por outras classes. Ela serve como um modelo geral que define 
+  propriedades e comportamentos comuns que podem ser compartilhados por várias subclasses. Por exemplo, se você 
+  tem uma superclasse chamada "Animal", ela pode ter atributos como "nome" e "idade", e métodos como "comer" e 
+  "dormir", que serão comuns a todos os tipos de animais.
+ 
+ - Subclasse: É a classe "filha" que herda atributos e métodos da superclasse. A subclasse pode usar tudo o que 
+  foi definido na superclasse, mas também pode adicionar seus próprios atributos e métodos ou até modificar 
+  (sobrescrever) os comportamentos herdados. Por exemplo, se a superclasse é "Animal", uma subclasse pode ser 
+  "Cachorro", que além de herdar "nome", "idade", "comer" e "dormir", pode adicionar um método específico como 
+  "latir".
+
+ Essa hierarquia mostra como as classes estão relacionadas, com a superclasse no topo, passando suas 
+características para as subclasses abaixo, que podem ser especializações mais detalhadas.
+
