@@ -275,17 +275,20 @@ Aqui estão os principais tipos de cardinalidade na associação:
 	Exemplo: Pense em um professor e suas aulas. Um "Professor" pode dar várias "Aulas". No entanto, cada aula 
                 é ministrada por apenas um professor.
 
- - Muitos para Muitos (N:N): Neste tipo, muitos objetos de uma classe podem estar associados a muitos objetos de outra classe. Não há um limite fixo no número de conexões entre os objetos de ambas as classes.
+ - Muitos para Muitos (N:N): Neste tipo, muitos objetos de uma classe podem estar associados a muitos objetos de 
+  outra classe. Não há um limite fixo no número de conexões entre os objetos de ambas as classes.
 
 	Exemplo: Considere um sistema de gerenciamento de cursos e alunos. Um "Aluno" pode se matricular em vários 
                 "Cursos", e cada curso pode ter vários alunos.
 
- - Um para Nenhum ou Um para Opcional (1:0..1): Essa cardinalidade indica que uma instância de uma classe pode estar associada a zero ou uma instância de outra classe. A associação não é obrigatória.
+ - Um para Nenhum ou Um para Opcional (1:0..1): Essa cardinalidade indica que uma instância de uma classe pode 
+  estar associada a zero ou uma instância de outra classe. A associação não é obrigatória.
 
 	Exemplo: Imagine um sistema de gerenciamento de funcionários. Um "Funcionário" pode ter um "Telefone de 
                 Escritório", mas não é obrigatório ter um telefone.
 
- - Muitos para Um (N:1): Aqui, muitos objetos de uma classe estão associados a um único objeto de outra classe. É o oposto de "Um para Muitos".
+ - Muitos para Um (N:1): Aqui, muitos objetos de uma classe estão associados a um único objeto de outra classe.
+  É o oposto de "Um para Muitos".
 
 	Exemplo: Pense em um sistema de gerenciamento de vendas onde muitos "Pedidos" são feitos por um único  
                 "Cliente". Cada pedido é feito por um cliente específico, mas um cliente pode fazer muitos 
