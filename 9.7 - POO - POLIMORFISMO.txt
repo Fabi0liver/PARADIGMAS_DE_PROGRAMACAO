@@ -173,3 +173,41 @@ flexibilidade e a capacidade de adaptação do código são alcançadas e aplica
 a manutenção e a evolução dos sistemas ao longo do tempo. Cada tipo de polimorfismo oferece diferentes formas de 
 abstrair e generalizar o comportamento dos objetos, tornando a POO uma abordagem poderosa no desenvolvimento de 
 software.
+
+
+"OBS: O que é assinatura de um método?
+
+ A assinatura de um método é o conjunto de informações que identifica      unicamente o método dentro de uma  
+classe ou interface. 
+
+  Ela inclui:
+
+               Nome do Método: O nome pelo qual o método é chamado.
+               
+	       Número e Tipo de Parâmetros: Os tipos e a ordem dos parâmetros que o método aceita.
+
+  A assinatura não inclui o tipo de retorno do método. Em outras palavras, métodos com o mesmo nome e parâmetros 
+ diferentes (ou número de parâmetros) têm assinaturas diferentes, enquanto métodos com a mesma assinatura, mas 
+ tipos de retorno diferentes, são considerados como tendo a mesma assinatura."
+
+
+
+                                   "Conclusão sobre Polimorfismo"
+
+ O polimorfismo é um conceito fundamental na programação orientada a objetos que permite que objetos de diferentes 
+classes sejam tratados de maneira uniforme por meio de uma interface comum. Ele se baseia na ideia de que uma 
+única interface pode ser usada para representar diferentes tipos de objetos, possibilitando que métodos sejam 
+chamados de forma genérica, sem precisar conhecer os detalhes específicos de cada tipo de objeto. Isso promove 
+flexibilidade e extensibilidade no código, facilitando a manutenção e a evolução dos sistemas.
+
+ Uma característica chave do polimorfismo é a capacidade de métodos em diferentes classes responderem a chamadas 
+de maneira específica para cada tipo de objeto. Isso significa que o mesmo método pode se comportar de maneira 
+diferente dependendo do objeto que o invoca. Essa característica é alcançada por meio da sobrecarga e sobrescrita 
+de métodos, que permitem definir e implementar comportamentos variados enquanto se mantém a mesma interface para 
+os métodos chamados.
+
+ Em resumo, o polimorfismo é uma poderosa ferramenta que melhora a reutilização e a modularidade do código. Ele 
+permite que o mesmo código funcione com diferentes tipos de objetos, simplificando a escrita de código mais geral 
+e extensível. Essa abordagem não apenas melhora a clareza e a organização do código, mas também facilita a 
+implementação de novos comportamentos sem a necessidade de modificar o código existente, promovendo a robustez e a 
+flexibilidade do sistema.
