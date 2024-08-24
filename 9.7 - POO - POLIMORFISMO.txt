@@ -1,0 +1,30 @@
+                                             POO: POLIMORFISMO
+
+ O polimorfismo é um conceito fundamental na Programação Orientada a Objetos (POO) que se refere à capacidade de 
+um objeto assumir diferentes formas. Em termos simples, o polimorfismo permite que uma única interface seja usada 
+para diferentes tipos de dados. Essa característica torna o código mais flexível e extensível, pois você pode 
+escrever funções ou métodos que podem trabalhar com diferentes tipos de objetos de maneira uniforme.
+
+ Imagine que você está em uma aula de artes e tem uma ferramenta chamada “pincel”. Esse pincel pode ser usado para 
+pintar de várias maneiras: você pode fazer uma linha fina, uma linha grossa, pode usar diferentes cores, ou até 
+mesmo criar texturas diferentes. Mesmo sendo o mesmo pincel, ele pode se comportar de maneiras variadas, 
+dependendo de como você o usa. No mundo da programação, o polimorfismo funciona de maneira semelhante.
+
+ Em POO, o polimorfismo permite que você use um método ou uma função de várias maneiras diferentes, dependendo do 
+contexto. Isso quer dizer que você pode ter uma única interface (como um método com o mesmo nome) que pode ser 
+usada para diferentes tipos de objetos. Por exemplo, imagine que você tenha um método chamado “desenhar”. Esse 
+método pode ser utilizado para desenhar um círculo, um quadrado, ou um triângulo. Mesmo que o nome do método seja 
+o mesmo, o comportamento dele será diferente dependendo do objeto com o qual está lidando.
+
+ Isso é muito útil porque permite que você escreva código mais flexível e reutilizável. Em vez de ter que escrever 
+um novo método para cada tipo de objeto, você pode usar o mesmo método e confiar que o comportamento correto será 
+executado, dependendo do tipo de objeto em questão.
+
+ Além disso, o polimorfismo facilita a extensão e a manutenção do código. Como você pode criar novas classes que 
+usam métodos já existentes de maneiras novas, é mais fácil adicionar funcionalidades ao seu programa sem precisar 
+modificar o código existente.
+
+ O polimorfismo é como se fosse uma mágica que torna a programação orientada a objetos poderosa e versátil. Ele 
+permite que os objetos se adaptem ao contexto em que são usados, proporcionando flexibilidade e facilitando a 
+criação de sistemas complexos e escaláveis.
+
