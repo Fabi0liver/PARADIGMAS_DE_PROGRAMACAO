@@ -28,3 +28,148 @@ modificar o código existente.
 permite que os objetos se adaptem ao contexto em que são usados, proporcionando flexibilidade e facilitando a 
 criação de sistemas complexos e escaláveis.
 
+
+
+                                      "Tipos de Polimorfismo"
+
+ Os tipos de polimorfismo são formas diferentes de implementar e utilizar o conceito de polimorfismo na 
+Programação Orientada a Objetos. Cada tipo de polimorfismo descreve uma maneira específica de permitir que o mesmo 
+nome ou operador tenha diferentes comportamentos. Em essência, os tipos de polimorfismo definem como a 
+flexibilidade e a capacidade de adaptação do código são alcançadas e aplicadas.
+
+ Os tipos mais comuns de polimorfismo são:
+
+ - Polimorfismo de Sobrecarga (Overloading): O polimorfismo de sobrecarga acontece quando várias funções ou 
+  métodos têm o mesmo nome, mas com diferentes assinaturas. A assinatura de uma função inclui o nome, o número e o 
+  tipo dos parâmetros. Isso permite que a mesma função seja usada para realizar operações semelhantes em 
+  diferentes contextos. A escolha de qual versão da função chamar é feita com base na combinação de parâmetros 
+  fornecidos. Esse tipo de polimorfismo facilita a criação de funções que realizam tarefas semelhantes mas com 
+  entradas diferentes.
+
+     Características:
+
+	Múltiplas Definições: Permite que um método ou operador tenha várias definições na mesma classe, com base 
+                             em diferentes assinaturas.
+
+	Assinaturas Diferentes: Cada definição deve ter um número diferente ou um tipo diferente de parâmetros.
+
+	Resolução em Tempo de Compilação: A seleção da definição correta ocorre durante a compilação, com base nos 
+                                         argumentos fornecidos na chamada do método.
+
+     Exemplo: Em uma classe 'Calculadora', você pode ter um método 'soma' que aceita dois inteiros como 	    
+             parâmetros, e outro soma que aceita três inteiros. Ambos os métodos têm o mesmo nome, mas comportam-
+             se de maneira diferente com base nos parâmetros fornecidos.
+
+
+ - Polimorfismo de Sobrescrita (Overriding): O polimorfismo de sobrescrita ocorre quando uma classe filha fornece 
+  uma implementação específica para um método que já foi definido na classe pai. Embora a classe filha tenha o 
+  mesmo nome de método, a implementação é ajustada para atender às necessidades específicas da classe filha. Isso 
+  permite que um objeto da classe filha execute uma versão personalizada de um método que é comum na hierarquia de 
+  herança. A decisão sobre qual versão do método usar é feita em tempo de execução, baseada no tipo do objeto que 
+  invoca o método.
+
+     Características:
+
+	Redefinição em Subclasse: Permite que uma subclasse forneça uma nova implementação para um método que já 
+                                 foi definido na superclasse.
+
+	Mesma Assinatura: A nova implementação deve ter a mesma assinatura que a original (mesmo nome, tipo e 
+                         número de parâmetros).
+
+	Resolução em Tempo de Execução: A escolha da implementação correta é feita durante a execução, com base no 
+                                       tipo real do objeto.
+
+     Exemplo: Se uma classe Animal tem um método 'fazerSom', e uma subclasse Cachorro sobrescreve esse método para 
+             que 'fazerSom' retorne "latido" em vez de "som de animal", então o método 'fazerSom' se comportará de 
+             maneira diferente dependendo do tipo de objeto (Cachorro ou outro animal).
+
+
+ - Polimorfismo Paramétrico: O polimorfismo paramétrico permite que funções ou métodos sejam definidos com tipos 
+  genéricos, que podem ser especificados quando a função ou método é chamado. Isso significa que o mesmo código 
+  pode operar em diferentes tipos de dados sem precisar ser reescrito para cada tipo. Esse tipo de polimorfismo é 
+  frequentemente utilizado em linguagens de programação que suportam generics, onde você pode escrever funções ou 
+  classes que funcionam com qualquer tipo de dado, fornecendo a flexibilidade de usar diferentes tipos sem 
+  duplicar o código.
+      
+     Características:
+
+	Generalização por Tipo: Permite que métodos e classes trabalhem com diferentes tipos de dados, que são 
+                               especificados como parâmetros.
+
+	Implementação Única: A mesma implementação pode ser usada para diferentes tipos, sem duplicação de código.
+
+	Resolução em Tempo de Compilação: O tipo específico é resolvido durante a compilação, garantindo segurança 
+                                         de tipo.
+
+     Exemplo: Uma classe 'Lista<T> pode ser usada para criar uma lista de qualquer tipo de dado, como 
+             'Lista<Integer>' ou 'Lista<String>', permitindo que o mesmo código funcione com diferentes tipos de 
+             dados.
+
+
+ - Polimorfismo por Inclusão (Subtype Polymorphism): O polimorfismo por inclusão, também conhecido como 
+  polimorfismo de subtipo, ocorre quando uma instância de uma classe filha pode ser usada onde uma instância da 
+  classe mãe é esperada. Isso é possível porque a classe filha herda ou implementa todos os métodos e atributos da   
+  classe mãe, possuindo assim um comportamento compatível. Esse tipo de polimorfismo é fundamental para a herança 
+  e permite que objetos de diferentes subclasses sejam tratados de maneira uniforme, promovendo a flexibilidade no 
+  uso de objetos e métodos.
+ 
+     Características:
+
+	Herança e Substituição: Permite que uma instância de uma subclasse seja tratada como uma instância da 
+                               superclasse.
+
+        Métodos da Superclasse: Métodos que aceitam a superclasse como parâmetro podem operar com qualquer 
+                               subclasse.
+
+        Resolução em Tempo de Execução: A decisão sobre qual método chamar é feita com base no tipo real do objeto 
+                                       durante a execução.
+
+     Exemplo: Se 'Animal' é uma superclasse e 'Cachorro' e 'Gato' são subclasses, uma variável do tipo 'Animal' 
+             pode referenciar um objeto de qualquer uma dessas subclasses, permitindo o uso de métodos comuns 
+             definidos na superclasse.
+
+
+ - Polimorfismo Coercivo (Coercion Polymorphism): O polimorfismo coercivo é quando uma operação pode aceitar 
+  diferentes tipos de dados, e o sistema converte automaticamente entre eles quando necessário. Isso ocorre 
+  geralmente quando você usa um tipo de dado em um contexto onde outro tipo é esperado, e o sistema faz a 
+  conversão automática para permitir a operação. Esse tipo de polimorfismo é útil para a compatibilidade entre 
+  tipos diferentes, mas é importante para garantir que a conversão não afete a precisão ou o comportamento 
+  esperado do programa.
+
+     Características:
+
+	Conversão Automática: Permite a conversão automática entre tipos de dados compatíveis.
+
+	Tratamento Intercambiável: Diferentes tipos de dados podem ser tratados de maneira intercambiável em 
+                                  contextos específicos.
+
+	Resolução em Tempo de Compilação: A conversão é geralmente decidida durante a compilação.
+
+     Exemplo: Em algumas linguagens, ao somar um número inteiro com um número de ponto flutuante, o inteiro é 
+             automaticamente convertido para um ponto flutuante para que a operação possa ser realizada.
+
+
+ - Polimorfismo de Ad-hoc: O polimorfismo de ad-hoc permite que uma função ou operação tenha diferentes 
+  comportamentos dependendo dos tipos de dados fornecidos, mas sem a necessidade de definir diferentes versões da 
+  função. Isso é frequentemente alcançado através da sobrecarga de operadores ou métodos específicos que se 
+  adaptam a diferentes tipos de dados ou estruturas. Esse tipo de polimorfismo oferece flexibilidade na definição 
+  de operações que podem ser aplicadas a diferentes tipos de dados de forma natural e intuitiva.
+
+     Características:
+
+	Comportamento Variado: Permite que métodos ou operadores tenham comportamentos variados dependendo dos 
+                              tipos dos argumentos fornecidos.
+
+        Sobrecarga e Outras Técnicas: Pode ser implementado através da sobrecarga de métodos ou operadores, ou por 
+                                     outros mecanismos que ajustam o comportamento com base no contexto.
+
+        Resolução em Tempo de Compilação ou Execução: Dependendo da implementação, a resolução pode ocorrer em 
+                                                     tempo de compilação ou em tempo de execução.
+
+    Exemplo: Funções de comparação como 'equals' podem ser implementadas de maneiras diferentes para diferentes 
+            tipos de objetos (e.g., comparar inteiros vs. comparar strings), mas todas têm o mesmo nome.
+
+ Esses tipos de polimorfismo permitem que programadores escrevam código mais flexível e reutilizável, facilitando 
+a manutenção e a evolução dos sistemas ao longo do tempo. Cada tipo de polimorfismo oferece diferentes formas de 
+abstrair e generalizar o comportamento dos objetos, tornando a POO uma abordagem poderosa no desenvolvimento de 
+software.
