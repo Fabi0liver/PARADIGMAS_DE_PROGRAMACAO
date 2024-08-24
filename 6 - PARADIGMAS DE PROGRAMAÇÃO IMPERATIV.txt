@@ -1,0 +1,41 @@
+                                PARADIGMAS DE PROGRAMAÇÃO IMPERATIVO
+
+
+ O paradigma de programação imperativo é uma abordagem que se concentra em descrever como o programa deve realizar 
+suas tarefas, utilizando uma sequência de instruções que alteram o estado do sistema. Nesse paradigma, o programador 
+especifica exatamente quais passos o computador deve seguir para atingir o objetivo final, como se estivesse dando 
+ordens diretas para que cada operação fosse realizada de maneira precisa e controlada.
+
+ Historicamente, o paradigma imperativo é um dos mais antigos e fundamentais na computação, com suas raízes 
+remontando aos primórdios da programação de computadores, na década de 1940. Ele foi fortemente influenciado pela 
+arquitetura dos primeiros computadores, como o ENIAC e o UNIVAC, que operavam de forma sequencial, processando uma 
+instrução de cada vez. As linguagens de programação mais antigas, como o Assembly, que foi uma das primeiras 
+formas de programação após o código de máquina puro, eram essencialmente imperativas. Essas linguagens permitiam 
+aos programadores especificar comandos de baixo nível, diretamente relacionados ao funcionamento do hardware, como 
+operações de movimentação de dados, controle de fluxo e manipulação de registradores.
+
+ O paradigma imperativo ganhou destaque e se consolidou com o desenvolvimento das primeiras linguagens de alto 
+nível, como Fortran nos anos 1950 e Algol nos anos 1960. Essas linguagens introduziram estruturas de controle mais 
+sofisticadas, como loops e condicionais, permitindo que os programadores escrevessem código de forma mais 
+eficiente e compreensível, mas ainda mantendo o controle direto sobre o fluxo de execução e o estado do programa.
+
+ A programação imperativa é caracterizada pela ênfase no controle explícito do fluxo de execução do programa, onde 
+cada instrução deve ser executada em uma ordem específica. Isso envolve o uso de estruturas de controle, como 
+loops (laços de repetição) e condicionais (estruturas de decisão), que permitem ao programador manipular 
+diretamente o comportamento do programa. A ideia central é que o estado do programa, representado pelos dados 
+armazenados na memória, é modificado por essas instruções, resultando em uma transformação progressiva até que o 
+objetivo final seja alcançado.
+
+ Uma característica marcante desse paradigma é o conceito de estado mutável. A cada execução de uma instrução, o 
+estado do programa pode ser alterado, e essa mudança é crucial para o funcionamento do programa. Isso difere de 
+outros paradigmas, como o funcional, onde o foco está em o que deve ser feito, em vez de como deve ser feito, e o 
+estado do sistema não é diretamente manipulado. No paradigma imperativo, porém, a sequência de mudanças de estado 
+é fundamental, e o programador tem controle direto sobre essas alterações.
+
+ Para tornar essa ideia mais concreta, imagine que você está programando um robô para montar uma mesa. No 
+paradigma imperativo, você daria instruções detalhadas sobre cada passo necessário: "Pegue a perna da mesa", 
+"Coloque-a na posição correta", "Use os parafusos para fixá-la", e assim por diante. Cada comando deve ser seguido 
+na ordem exata para que a mesa seja montada corretamente. Se um passo for realizado fora de ordem, o resultado 
+pode ser uma mesa instável ou montada de forma incorreta. Assim, o paradigma imperativo se baseia nessa ideia de 
+seguir uma sequência clara e controlada de ações para alcançar o objetivo final.
+ 
