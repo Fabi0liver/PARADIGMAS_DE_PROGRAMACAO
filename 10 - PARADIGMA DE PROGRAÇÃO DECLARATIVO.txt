@@ -52,4 +52,59 @@ simplesmente escolhe o prato no cardápio e informa o chef. Você descreve o que
 passado com batatas"), e o chef, usando sua expertise, decide como preparar o prato para você, sem que você 
 precise se envolver nos detalhes. O foco é no resultado final, e não nos passos para alcançá-lo.
 
+
+
+                "Linguagens de Programação que usam o Paradigma Declarativo"
+
+ Linguagens que utilizam o paradigma declarativo são projetadas para permitir que os programadores expressem o que 
+desejam alcançar, em vez de especificar os passos detalhados para chegar a esse resultado. Nesse modelo, o foco 
+está na descrição do problema e na definição dos objetivos desejados, enquanto o sistema subjacente é responsável 
+por determinar a melhor forma de executar essas instruções. Isso simplifica o processo de programação ao abstrair 
+a complexidade da implementação, permitindo que os desenvolvedores se concentrem mais na lógica e nos resultados 
+esperados do programa.
+
+ Vou detalhar um pouco mais sobre cada uma dessas linguagens, enfatizando como elas se alinham ao paradigma declarativo:
+
+ - Prolog: É uma linguagem de programação lógica, utilizada principalmente em inteligência artificial e resolução 
+  de problemas baseados em regras. Em Prolog, você define fatos e regras lógicas e faz consultas para inferir 
+  novas informações. A execução é baseada na resolução lógica dos fatos declarados, o que torna a linguagem   
+  declarativa. O programador especifica o "o que" deve ser verdadeiro, e o mecanismo de inferência de Prolog deduz 
+  "como" isso pode ser verdadeiro.
+
+ - Erlang: É uma linguagem projetada para sistemas distribuídos e tolerantes a falhas, com forte suporte para  
+  concorrência. Em Erlang, o modelo de atores permite que processos concorrentes se comuniquem por troca de 
+  mensagens, sem compartilhar estado. Isso elimina a necessidade de programação imperativa complexa para 
+  sincronização de threads, focando mais no "o que" os processos devem fazer e "quais" mensagens devem trocar, sem 
+  se preocupar com os detalhes de implementação de concorrência.
+
+ - MATLAB: É uma linguagem e ambiente de programação voltado para cálculos numéricos, simulações e visualizações 
+  gráficas. MATLAB permite que você descreva operações matemáticas de alto nível de forma declarativa. Por 
+  exemplo, ao manipular matrizes ou realizar operações algébricas, você não precisa se preocupar com os detalhes 
+  de implementação; o MATLAB interpreta as operações e as executa de maneira eficiente.
+
+ - Lisp: É uma família de linguagens de programação com uma longa história, frequentemente usada para pesquisa em 
+  inteligência artificial. Embora Lisp suporte tanto paradigmas imperativos quanto declarativos, sua capacidade de 
+  tratar código como dados (metaprogramação) permite um estilo declarativo onde você pode definir regras e 
+  manipular expressões de maneira abstrata. Dialetos como Clojure enfatizam o uso de funções puras e 
+  imutabilidade, promovendo o estilo declarativo.
+
+ - SQL (Structured Query Language): É uma linguagem padrão para gerenciar e manipular bancos de dados  
+  relacionais. SQL é declarativo porque, ao consultar um banco de dados, você especifica "o que" deseja obter, 
+  como selecionar colunas de uma tabela ou combinar dados de várias tabelas, sem precisar detalhar "como" o 
+  sistema deve realizar essas operações. O sistema de gerenciamento de banco de dados (SGBD) cuida da execução 
+  interna das consultas.
+
+ - HTML (HyperText Markup Language): É a linguagem padrão para criar e estruturar páginas na web. HTML é 
+  declarativo porque você define a estrutura do conteúdo (por exemplo, que um trecho de texto é um parágrafo, ou 
+  que uma imagem deve ser exibida) sem se preocupar com a execução de como esse conteúdo será exibido. O navegador 
+  interpreta as tags HTML e renderiza o conteúdo conforme especificado.
+
+ - CSS (Cascading Style Sheets): É uma linguagem usada para descrever a aparência e o layout de documentos HTML. 
+  CSS é declarativo porque você define regras de estilo que descrevem como os elementos da página devem ser 
+  apresentados. Você especifica "o que" quer que aconteça (por exemplo, que todos os títulos tenham uma cor azul), 
+  mas não "como" o navegador deve processar essa informação.
+
+ Essas linguagens exemplificam como o paradigma declarativo pode ser aplicado em diferentes domínios, permitindo 
+que o programador se concentre mais na lógica e na intenção do código, deixando os detalhes da execução para as 
+ferramentas e ambientes de tempo de execução.
  
