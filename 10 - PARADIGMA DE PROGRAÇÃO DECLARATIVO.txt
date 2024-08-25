@@ -107,4 +107,51 @@ esperados do programa.
  Essas linguagens exemplificam como o paradigma declarativo pode ser aplicado em diferentes domínios, permitindo 
 que o programador se concentre mais na lógica e na intenção do código, deixando os detalhes da execução para as 
 ferramentas e ambientes de tempo de execução.
+
+
+
+                      "Principais Características do Paradigma Declarativo"
+
+ O paradigma declarativo é um estilo de programação onde o foco está na descrição do que se deseja alcançar, em vez de detalhar como alcançar o resultado. 
+
+ Aqui estão as principais características desse paradigma:
+
+ - Descrição do Problema: No paradigma declarativo, você especifica o que deseja obter ou realizar sem descrever 
+  como o sistema deve realizar a tarefa. Em vez de fornecer um conjunto de instruções passo a passo, você define 
+  as condições e restrições que devem ser satisfeitas. Isso permite que o sistema determine o melhor caminho para 
+  alcançar o objetivo definido.
+
+ - Abstração da Implementação: O paradigma declarativo abstrai os detalhes da implementação, focando mais na 
+  lógica de alto nível do problema. O programador não precisa se preocupar com a mecânica interna do processo de 
+  execução. Em vez disso, o sistema subjacente cuida da execução, otimizando e gerenciando os recursos necessários 
+  para satisfazer as condições declaradas.
+
+ - Uso de Regras e Fatos: Em muitas linguagens declarativas, especialmente em programação lógica, você define 
+  fatos e regras. Fatos são declarações sobre o estado do sistema, enquanto regras descrevem como novos fatos  
+  podem ser derivados a partir dos existentes. A execução do programa envolve a inferência desses fatos e regras 
+  para responder a consultas ou resolver problemas.
+
+ - Consultas e Expressões: O paradigma declarativo frequentemente utiliza consultas e expressões para interagir 
+  com o sistema. Em vez de executar comandos imperativos, o programador formula consultas que o sistema interpreta 
+  e executa. Isso é comum em linguagens de consulta como SQL, onde você especifica o que deseja recuperar de um 
+  banco de dados, sem detalhar como a recuperação deve ser realizada.
+
+ - Imutabilidade e Funções Puras: Em alguns paradigmas declarativos, como a programação funcional, a ênfase está 
+  na imutabilidade e no uso de funções puras. Funções puras não têm efeitos colaterais e sempre retornam o mesmo 
+  resultado para os mesmos argumentos. Isso permite uma abordagem mais declarativa, onde o foco está na definição 
+  das operações e na transformação de dados, sem se preocupar com mudanças de estado.
+
+ - Lógica e Constrangimentos: Linguagens declarativas muitas vezes expressam a lógica do programa em termos de 
+  constrangimentos ou restrições. Por exemplo, em programação lógica, você define um conjunto de restrições que 
+  descrevem o problema e permite que o sistema encontre soluções que atendam a essas restrições. Isso diferencia o 
+  paradigma declarativo da programação imperativa, onde o controle de fluxo é explicitamente gerenciado.
+
+ - Orientação à Declaração de Resultados: O paradigma declarativo se orienta para a declaração dos resultados 
+  esperados em vez de se preocupar com o processo para alcançá-los. O programador define claramente qual é o 
+  objetivo ou resultado desejado, e o sistema se encarrega de trabalhar internamente para atingir esse resultado 
+  da maneira mais eficiente possível.
+
+ Essas características destacam a abordagem declarativa de programação, que visa simplificar o desenvolvimento ao 
+permitir que os programadores descrevam o que querem alcançar sem se preocupar com os detalhes específicos de como 
+isso deve ser realizado
  
