@@ -112,7 +112,8 @@ ferramentas e ambientes de tempo de execução.
 
                       "Principais Características do Paradigma Declarativo"
 
- O paradigma declarativo é um estilo de programação onde o foco está na descrição do que se deseja alcançar, em vez de detalhar como alcançar o resultado. 
+ O paradigma declarativo é um estilo de programação onde o foco está na descrição do que se deseja alcançar, em 
+vez de detalhar como alcançar o resultado. 
 
  Aqui estão as principais características desse paradigma:
 
