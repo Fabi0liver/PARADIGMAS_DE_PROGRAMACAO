@@ -1,0 +1,90 @@
+                             PARADIGMA DE PROGRAMAÇÃO LÓGICO 
+
+
+ O paradigma de programação lógico é uma maneira de programar que se baseia em lógica formal e matemática. Em vez de 
+dar ao computador uma série de instruções detalhadas sobre como resolver um problema, como acontece em paradigmas 
+como o procedural, você define o problema através de declarações lógicas, e o computador usa essas declarações para 
+encontrar a solução por conta própria. É uma abordagem que se concentra em "o que" deve ser resolvido, e não em 
+"como" resolver.
+
+ A essência do paradigma lógico está na utilização de fatos e regras. Um fato é uma afirmação que o sistema 
+considera verdadeira, como "João é pai de Maria". Já uma regra é uma declaração que relaciona esses fatos de uma 
+maneira que o sistema pode usar para tirar conclusões. Por exemplo, você poderia ter uma regra que diz "Se X é pai 
+de Y e Y é pai de Z, então X é avô de Z". O sistema, ao receber essas informações, seria capaz de deduzir que "João 
+é avô de Pedro" se souber que "João é pai de Maria" e "Maria é mãe de Pedro".
+
+ O que torna o paradigma lógico especial é essa capacidade de dedução. Você não precisa detalhar o processo de 
+como chegar à conclusão; basta definir claramente as relações e deixar o sistema fazer o trabalho pesado de 
+raciocínio. Isso é muito útil em situações onde as relações entre os dados são mais importantes do que os passos 
+necessários para processá-los. O sistema, ao seguir as regras que você definiu, pode explorar várias 
+possibilidades e encontrar soluções que você, como programador, não precisaria prever explicitamente.
+
+ Imagine que você está trabalhando em um problema que envolve uma grande quantidade de dados interconectados, como 
+uma rede social, e você quer descobrir quem são os amigos em comum entre duas pessoas. No paradigma procedural, 
+você precisaria escrever um código que percorre as listas de amigos de cada pessoa, compara essas listas e retorna 
+os amigos em comum. Já no paradigma lógico, você poderia simplesmente definir o fato de que "X é amigo de Y" e 
+criar uma regra que estabelece que "Z é amigo em comum de X e Y se Z for amigo de X e amigo de Y". O sistema então 
+se encarrega de aplicar essa regra para todos os casos possíveis e encontrar as respostas corretas.
+
+ Este paradigma é amplamente utilizado em áreas como inteligência artificial e sistemas especialistas, onde 
+problemas complexos precisam ser resolvidos com base em uma grande quantidade de dados e regras. Como o sistema 
+lógico trabalha com deduções automáticas, ele pode lidar com esses desafios de forma eficiente, encontrando 
+soluções com base nas informações fornecidas, sem a necessidade de instruções detalhadas de como processar esses 
+dados.
+
+ Para facilitar o entendimento, pense em um detetive resolvendo um caso de mistério. Se o detetive seguisse o 
+paradigma procedural, ele teria que seguir um roteiro detalhado, passo a passo, de como investigar o caso: 
+entrevistar testemunhas, coletar evidências, etc. No paradigma lógico, o detetive teria apenas que definir as 
+pistas e as regras de dedução, como "Se alguém foi visto na cena do crime e tem um motivo, então é suspeito". Com 
+essas regras em mãos, o "detetive lógico" (ou seja, o sistema de programação) faria automaticamente todas as 
+conexões necessárias para resolver o caso. Isso significa que, em vez de se concentrar no processo de 
+investigação, o detetive pode focar na descrição das condições e relações envolvidas, deixando a resolução do 
+mistério para o sistema.
+
+ Essa analogia ajuda a entender a força do paradigma lógico: ele permite que você descreva um problema em termos 
+de lógica e relações, e o computador se encarrega de deduzir as soluções, como um detetive que resolve o caso sem 
+precisar ser guiado por cada passo do processo. É uma forma de programação que valoriza a clareza e a precisão na 
+definição de problemas e se destaca em áreas onde a complexidade e a interconexão dos dados exigem um raciocínio 
+lógico robusto e eficiente.
+
+
+
+                           "O surgimento do paradigma de programação lógico"
+
+ O paradigma de programação lógico surgiu como uma resposta às necessidades da inteligência artificial e do 
+raciocínio automatizado. Com raízes na lógica formal e no desejo de criar máquinas capazes de raciocinar, ele se 
+desenvolveu como uma ferramenta poderosa para resolver problemas complexos. 
+
+ No início do século XX, a lógica formal evoluiu com trabalhos de matemáticos como Bertrand Russell e Alfred North 
+Whitehead, que buscaram formalizar a matemática em termos de lógica pura. Essa abordagem, conhecida como 
+"logística", influenciou significativamente o desenvolvimento da lógica computacional.
+
+A ideia de usar lógica formal como base para computação começou a ganhar força com o surgimento da inteligência 
+artificial (IA) na década de 1950. Pesquisadores como Alan Turing e John McCarthy estavam interessados em criar 
+máquinas que pudessem "pensar" ou resolver problemas de maneira semelhante aos humanos. A programação lógica 
+emergiu como uma ferramenta para isso, permitindo que os computadores resolvessem problemas complexos ao manipular 
+e aplicar regras lógicas.
+
+ O verdadeiro ponto de partida para a programação lógica como um paradigma distinto veio com o desenvolvimento da 
+linguagem de programação Prolog (Programming in Logic) na década de 1970. Prolog foi criada por Alain Colmerauer e 
+Robert Kowalski, dois cientistas da computação que combinaram o poder da lógica com a praticidade de uma linguagem 
+de programação.
+
+ Prolog foi projetada para facilitar o trabalho em áreas como IA, onde a manipulação de conhecimento e a 
+inferência lógica são cruciais. Ao invés de programar uma sequência de instruções, como em linguagens procedurais, 
+os programadores em Prolog descrevem fatos e regras lógicas, e o sistema de Prolog resolve problemas deduzindo 
+novas informações a partir desses fatos e regras. Isso representou uma mudança radical na forma como as pessoas 
+pensavam sobre programação, levando a uma nova maneira de abordar problemas complexos.
+
+ Desde sua criação, o paradigma lógico foi amplamente adotado em áreas como sistemas especialistas, processamento 
+de linguagem natural e IA em geral. O Prolog, em particular, tornou-se uma ferramenta poderosa para resolver 
+problemas onde as relações entre dados e a necessidade de dedução automática eram essenciais.
+
+ O sucesso do paradigma lógico mostrou que era possível criar sistemas inteligentes que podiam fazer inferências e 
+tomar decisões com base em regras lógicas. Isso não apenas ampliou os horizontes da programação, mas também abriu 
+novos caminhos para a IA, proporcionando uma base teórica sólida para o desenvolvimento de máquinas que pudessem 
+simular aspectos do raciocínio humano.
+
+ 
+
+ 
