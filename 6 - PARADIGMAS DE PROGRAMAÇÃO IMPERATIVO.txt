@@ -213,7 +213,12 @@ do projeto e a capacidade da equipe de desenvolvimento.
 
                        "Conclusão sobre o Paradigma de Programação Imperativo"
 
- O paradigma de programação imperativa é uma abordagem que foca na descrição de como o programa deve executar suas tarefas, especificando uma sequência de comandos e instruções que manipulam diretamente o estado do sistema. Esse paradigma se baseia em uma série de comandos que alteram o estado das variáveis e a memória do computador, com o objetivo de obter um resultado desejado. A programação imperativa é conhecida por sua clareza e controle detalhado sobre o fluxo de execução, o que permite aos desenvolvedores gerenciar explicitamente a lógica e os recursos do programa.
+ O paradigma de programação imperativa é uma abordagem que foca na descrição de como o programa deve executar suas
+tarefas, especificando uma sequência de comandos e instruções que manipulam diretamente o estado do sistema. Esse 
+paradigma se baseia em uma série de comandos que alteram o estado das variáveis e a memória do computador, com o 
+objetivo de obter um resultado desejado. A programação imperativa é conhecida por sua clareza e controle detalhado 
+sobre o fluxo de execução, o que permite aos desenvolvedores gerenciar explicitamente a lógica e os recursos do 
+programa.
 
  Uma característica central do paradigma imperativo é o uso de estruturas de controle como loops, condições e 
 comandos sequenciais. Essas estruturas permitem a criação de algoritmos que definem precisamente como o estado do 
