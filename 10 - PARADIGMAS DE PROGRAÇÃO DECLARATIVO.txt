@@ -1,0 +1,55 @@
+                                  PARADIGMAS DE PROGRAÇÃO DECLARATIVO
+
+
+ O paradigma de programação declarativo é uma abordagem de desenvolvimento de software onde o foco principal é 
+descrever o que se deseja alcançar, sem precisar especificar em detalhes como isso deve ser feito. Em vez de 
+detalhar uma sequência de passos para a execução de uma tarefa, como ocorre em outros paradigmas, o programador 
+apenas define o objetivo final ou o resultado esperado. O sistema ou linguagem usada é então responsável por 
+descobrir e executar os passos necessários para alcançar esse resultado.
+
+ Esse paradigma é especialmente útil quando o problema a ser resolvido pode ser claramente descrito em termos de 
+resultados ou estados desejados, sem a necessidade de se preocupar com os processos detalhados que acontecem nos 
+bastidores. Por exemplo, em uma consulta a um banco de dados, o programador pode simplesmente dizer "quero todos 
+os registros onde a idade seja maior que 30", e o sistema se encarrega de descobrir como recuperar esses registros 
+da maneira mais eficiente possível.
+
+ O surgimento do paradigma declarativo está intimamente ligado à evolução da computação e à busca por maneiras 
+mais eficientes e intuitivas de programar, especialmente à medida que os problemas se tornavam mais complexos. Nos 
+anos 1950, LISP (List Processing) foi uma das primeiras linguagens a incorporar elementos declarativos, 
+particularmente no campo da programação funcional. LISP foi projetada para lidar com dados simbólicos e 
+manipulação de listas, sendo usada inicialmente em inteligência artificial. Sua abordagem, ao invés de focar em 
+instruções passo a passo, permitia que o programador se concentrasse em descrever transformações de dados.
+
+ Nos anos 1970, o paradigma declarativo ganhou força com o desenvolvimento de Prolog (Programação em Lógica), uma 
+linguagem criada para programação lógica. Prolog introduziu a ideia de definir relações e regras, permitindo ao 
+programador expressar o conhecimento de um domínio através de fatos e regras lógicas. O programa então, usando um 
+motor de inferência, determinava a solução de um problema ao explorar essas regras, sem que o programador 
+precisasse especificar a ordem exata de execução das instruções. Isso representou um grande avanço na 
+simplificação da lógica de programação para problemas complexos.
+
+ Outro marco importante foi a criação do SQL (Structured Query Language) para bancos de dados relacionais, que 
+exemplifica claramente o paradigma declarativo. Com SQL, o programador descreve o que deseja obter de um banco de 
+dados — como selecionar certos dados com base em condições específicas — sem se preocupar em como esses dados 
+serão obtidos, ou seja, a implementação exata da consulta é deixada a cargo do sistema de gerenciamento de banco 
+de dados.
+
+ Além dessas, o paradigma declarativo influenciou o desenvolvimento de outras linguagens e tecnologias, como as 
+usadas em sistemas de configuração e automação (por exemplo, Ansible, Puppet), onde se descrevem estados desejados 
+de sistemas e não os comandos necessários para atingir esses estados.
+
+ Em resumo, o paradigma declarativo se trata de expressar intenções e objetivos, deixando a execução e a lógica 
+subjacente para o sistema interpretar e resolver da melhor maneira possível. Esse estilo de programação é 
+especialmente útil em ambientes onde a descrição do objetivo pode ser feita de forma clara e onde há um motor de 
+execução capaz de determinar a melhor forma de atingir esse objetivo com base em regras e lógicas pré-definidas. 
+Isso faz do paradigma declarativo uma escolha poderosa para certos tipos de problemas, onde a complexidade da 
+implementação pode ser abstraída, permitindo ao programador focar na solução em um nível mais alto de abstração.
+
+ Uma analogia para entender o paradigma declarativo é compará-lo a fazer um pedido em um restaurante. Imagine que 
+você vai a um restaurante e deseja uma refeição. Em um estilo imperativo, você entraria na cozinha e diria ao chef 
+exatamente como preparar cada ingrediente, quais utensílios usar, e em que ordem fazer cada passo. Isso exige que 
+você tenha conhecimento detalhado do processo de cozinha e monitore cada etapa. Já em um estilo declarativo, você 
+simplesmente escolhe o prato no cardápio e informa o chef. Você descreve o que quer (por exemplo, "um bife bem 
+passado com batatas"), e o chef, usando sua expertise, decide como preparar o prato para você, sem que você 
+precise se envolver nos detalhes. O foco é no resultado final, e não nos passos para alcançá-lo.
+
+ 
