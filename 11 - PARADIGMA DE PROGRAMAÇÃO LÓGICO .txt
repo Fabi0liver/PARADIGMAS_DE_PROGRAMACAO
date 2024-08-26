@@ -87,4 +87,48 @@ simular aspectos do raciocínio humano.
 
  
 
+                                    "Estrutura Básica de um Programa Lógico"
+
+ Um programa lógico é essencialmente uma coleção organizada de fatos e regras. A estrutura básica pode ser 
+visualizada como um conjunto de blocos de conhecimento (fatos) e diretrizes (regras) sobre como esse conhecimento 
+deve ser manipulado. O programa, então, utiliza esses blocos e diretrizes para responder a perguntas (consultas) 
+de forma lógica e sistemática.
+
+ Vamos descrever esses elementos de forma detalhada:
+
+ - Fatos: Fatos são declarações básicas que expressam verdades incontestáveis dentro do contexto do problema. Eles 
+  representam o conhecimento inicial que o sistema possui e são usados como base para todas as inferências 
+  subsequentes. Fatos descrevem relações entre entidades ou propriedades de entidades de maneira direta e simples. 
+  Por exemplo, podemos pensar em fatos como afirmações que o sistema sabe serem verdadeiras sem precisar provar, 
+  funcionando como a base sólida sobre a qual o raciocínio lógico é construído.
  
+ - Regras: Regras são declarações que definem como novos conhecimentos podem ser derivados a partir dos fatos 
+  existentes. Elas consistem em uma condição (ou premissa) e uma conclusão. Se a condição especificada na regra 
+  for satisfeita pelos fatos disponíveis, então a conclusão da regra é considerada verdadeira. Regras permitem ao 
+  sistema deduzir novas informações, expandindo o conhecimento disponível e possibilitando a resolução de 
+  consultas complexas. Elas funcionam como um mecanismo para aplicar lógica condicional e derivar conclusões de 
+  maneira estruturada.
+
+ - Consultas: Consultas são as perguntas ou problemas que são apresentados ao sistema lógico. Elas representam a 
+  solicitação de uma informação específica baseada nos fatos e regras disponíveis. Quando uma consulta é feita, o 
+  sistema tenta encontrar uma solução usando o conhecimento atual (fatos) e as regras de inferência para 
+  determinar se a consulta pode ser satisfeita. Consultas são a interface por meio da qual o usuário interage com 
+  o sistema, pedindo respostas ou validações de certas proposições.
+
+ - Inferência: A inferência é o processo pelo qual o sistema lógico deduz novas informações ou verifica a  
+  veracidade de uma proposição com base nos fatos e nas regras disponíveis. Existem diferentes mecanismos de 
+  inferência, como a inferência direta (forward chaining) ou a inferência reversa (backward chaining), que 
+  determinam como o sistema deve aplicar as regras para chegar a uma conclusão. A inferência é essencialmente o 
+  "motor" do paradigma lógico, permitindo que o sistema raciocine e resolva problemas de forma automática.
+
+ - Unificação: A unificação é o processo de correspondência de termos ou expressões dentro do sistema lógico. 
+  Quando o sistema tenta resolver uma consulta ou aplicar uma regra, ele precisa verificar se os termos envolvidos 
+  são compatíveis, ou seja, se podem ser "unificados". A unificação envolve comparar estruturas de dados e, se 
+  necessário, substituir variáveis para encontrar uma correspondência que satisfaça todas as condições. Esse 
+  processo é crucial para a operação correta do sistema, pois garante que as regras sejam aplicadas de maneira  
+  coerente e que as consultas sejam resolvidas com base nos fatos disponíveis.
+
+ Esses elementos trabalham juntos para permitir que um sistema de programação lógica funcione de maneira eficaz. 
+Fatos e regras formam a base de conhecimento, consultas solicitam informações ou resoluções de problemas, a 
+inferência é o processo de raciocínio, e a unificação assegura que os termos sejam comparados e correspondidos 
+corretamente.
