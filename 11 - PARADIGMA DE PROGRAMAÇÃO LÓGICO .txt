@@ -198,7 +198,8 @@ nesse paradigma:
 
 
  Essas linguagens são classificadas como lógicas porque todas permitem que o programador defina conhecimento em 
-termos de lógica formal e utilizem mecanismos de inferência para deduzir novas informações, focando no "o que"  deve ser resolvido em vez de no "como" resolver.
+termos de lógica formal e utilizem mecanismos de inferência para deduzir novas informações, focando no "o que" 
+deve ser resolvido em vez de no "como" resolver.
 
 
 
@@ -243,7 +244,8 @@ particularmente útil para problemas complexos e interconectados, como aqueles e
 artificial e sistemas especialista
 
  Entre as vantagens, destaca-se a capacidade de expressar o conhecimento de maneira clara e de lidar com problemas 
-onde as relações entre dados são mais importantes que os processos detalhados. O sistema lida com o raciocínio lógico e a dedução de informações, o que pode reduzir a complexidade do código e facilitar a manutenção.
+onde as relações entre dados são mais importantes que os processos detalhados. O sistema lida com o raciocínio lógico
+e a dedução de informações, o que pode reduzir a complexidade do código e facilitar a manutenção.
 
  No entanto, o paradigma lógico tem suas desvantagens. A execução pode ser menos eficiente devido ao processo de 
 inferência e dedução, que pode ser intensivo em termos computacionais. Além disso, a abordagem declarativa pode 
