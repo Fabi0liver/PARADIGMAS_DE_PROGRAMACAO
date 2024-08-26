@@ -1,0 +1,85 @@
+                                   PARADIGMA DE PROGRAMAÇÃO FUNCIONAL
+
+ 
+ O paradigma de programação funcional é uma abordagem que se concentra em tratar funções como elementos primários na 
+construção de programas. Em vez de ver um programa como uma sequência de instruções para serem executadas, a 
+programação funcional vê o programa como uma série de funções que transformam dados e retornam resultados.
+
+ No coração da programação funcional está a ideia de funções puras. Uma função é considerada pura se seu resultado 
+depende apenas dos seus parâmetros de entrada e não causa efeitos colaterais. Em outras palavras, uma função pura 
+para sempre o mesmo resultado quando dada a mesma entrada e não altera o estado do sistema ou dos dados fora dela. 
+Isso torna o comportamento do programa mais previsível e fácil de entender, pois você pode confiar que uma função 
+pura não fará nada inesperado além de calcular o resultado.
+
+ Outra característica fundamental da programação funcional é o uso de funções de ordem superior. Funções de ordem 
+superior são aquelas que podem receber outras funções como argumentos ou retornar funções como resultado. Isso 
+permite uma grande flexibilidade na construção de programas, pois você pode criar funções que manipulam outras 
+funções, combinando e aplicando transformações de maneira elegante e eficiente.
+
+ A imutabilidade é outro conceito central na programação funcional. Em vez de modificar variáveis e estruturas de 
+dados existentes, você cria novas variáveis e estruturas de dados com base nas antigas. Isso ajuda a evitar muitos 
+problemas comuns relacionados ao estado mutável, como efeitos colaterais inesperados e bugs difíceis de rastrear. 
+Com a imutabilidade, o estado do programa é sempre previsível, pois você sabe que os dados não mudarão 
+inesperadamente.
+
+ Além disso, a programação funcional frequentemente utiliza o conceito de expressão, em vez de comandos. Em vez de 
+executar uma série de instruções que alteram o estado, você escreve expressões que retornam valores. Cada 
+expressão é avaliada para produzir um resultado, e essas expressões podem ser combinadas para formar programas 
+mais complexos. Isso resulta em código mais declarativo, onde você descreve o que deseja calcular, não como 
+calcular.
+
+ Para ilustrar, imagine que você está preparando uma receita de bolo. No paradigma funcional, você se concentraria 
+em descrever a receita em termos das transformações que aplicam aos ingredientes. Em vez de se preocupar com o 
+processo passo a passo de misturar e assar, você define funções para combinar ingredientes e obter o resultado 
+final. Se você precisar de um bolo diferente, você pode simplesmente alterar a função que define a combinação de 
+ingredientes, sem se preocupar com como as etapas intermediárias foram executadas. Assim, a programação funcional 
+permite pensar nos programas como transformações de dados de maneira clara e modular, facilitando a criação e 
+manutenção de código.
+
+
+
+                  "Contexto Histórico e do Surgimento do Paradigma Funcional"
+
+ O paradigma de programação funcional tem suas raízes na matemática e na lógica, evoluindo ao longo de várias 
+décadas até se tornar uma abordagem importante na ciência da computação. Para entender seu surgimento e contexto 
+histórico, é útil considerar alguns marcos importantes na história da programação e da teoria computacional.
+
+ A origem do paradigma funcional pode ser rastreada até os trabalhos do matemático Alonzo Church na década de 
+1930. Church desenvolveu o conceito de cálculo lambda, uma formalização matemática de funções e aplicações de 
+funções. O cálculo lambda é uma teoria formal que descreve como funções podem ser aplicadas a argumentos e como 
+funções podem ser definidas e combinadas. Essa teoria foi fundamental para o desenvolvimento do paradigma 
+funcional, pois introduziu a ideia de funções como entidades fundamentais na computação, sem dependência de 
+estados internos ou efeitos colaterais.
+
+ Nos anos 1950 e 1960, o conceito de programação funcional começou a se concretizar com o desenvolvimento das 
+primeiras linguagens de programação que incorporavam ideias do cálculo lambda. Uma das primeiras linguagens 
+funcionais foi a Lisp, criada por John McCarthy em 1958. Lisp foi projetada para manipular expressões simbólicas e 
+suas funções eram tratadas como cidadãos de primeira classe, o que significa que podiam ser passadas como 
+argumentos e retornadas como resultados. Essa abordagem refletia os princípios do cálculo lambda e estabeleceu a 
+base para muitos conceitos da programação funcional.
+
+ Durante as décadas seguintes, o paradigma funcional continuou a se desenvolver com a introdução de outras 
+linguagens que enfatizavam o estilo funcional. A linguagem ML, desenvolvida por Robin Milner na década de 1970, 
+trouxe importantes inovações, como o sistema de tipos inferidos, que ajudou a tornar o código funcional mais 
+seguro e robusto. ML influenciou o desenvolvimento de outras linguagens funcionais, como Haskell, que surgiu na 
+década de 1990 como uma linguagem puramente funcional com um forte sistema de tipos e uma ênfase na programação 
+declarativa.
+
+ O crescimento do paradigma funcional também foi impulsionado pela necessidade de lidar com problemas complexos e 
+paralelismo em computação. À medida que os sistemas de computação se tornaram mais avançados e as arquiteturas 
+paralelas se tornaram mais comuns, as características da programação funcional, como a imutabilidade e a ausência 
+de efeitos colaterais, se mostraram úteis para escrever código seguro e eficiente em ambientes paralelos e 
+distribuídos.
+
+ Hoje, a programação funcional é uma abordagem amplamente reconhecida e utilizada em muitos contextos, tanto 
+acadêmicos quanto industriais. Ela é valorizada por sua capacidade de promover código mais limpo e modular, por 
+seu suporte a funções como cidadãos de primeira classe e por suas propriedades que facilitam o raciocínio sobre o 
+comportamento do programa. Além disso, conceitos da programação funcional foram integrados em muitas linguagens 
+multiparadigma, como Python, JavaScript e Scala, refletindo a influência duradoura e crescente do paradigma 
+funcional na prática da programação moderna.
+
+ Em resumo, o paradigma funcional surgiu das ideias matemáticas do cálculo lambda e foi solidificado com o 
+desenvolvimento de linguagens como Lisp e ML. Sua evolução ao longo do tempo reflete uma crescente valorização da 
+clareza, modularidade e segurança no desenvolvimento de software.
+ 
+
